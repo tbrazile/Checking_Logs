@@ -1,0 +1,781 @@
+Started by upstream project "HI-Manifests/hix_manifests_gate" build number 5612
+originally caused by:
+ Triggered by Gerrit: https://csp-gerrit.volvocars.biz/c/csp/products/hi_manifests/+/277677
+Checking out git https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests into /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@script/cf911007bd4240395560b74552b26c143901a2c03599e04617bb84796ab93386 to read jenkins/hix_build_apps.jenkinsfile
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@script/cf911007bd4240395560b74552b26c143901a2c03599e04617bb84796ab93386/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests refs/changes/77/277677/3 # timeout=10
+ > git rev-parse origin/FETCH_HEAD^{commit} # timeout=10
+ > git rev-parse FETCH_HEAD^{commit} # timeout=10
+Checking out Revision 269d2748ca37ddbf23417ada780e9864dd7aad85 (FETCH_HEAD)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 269d2748ca37ddbf23417ada780e9864dd7aad85 # timeout=10
+Commit message: "update with latest HIA platform 2310."
+ > git rev-list --no-walk c332c9c3e26b4e1f07ae3e8c5762f3008e5d6fa9 # timeout=10
+Loading library vcclib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs # timeout=10
+Found match: refs/heads/master revision 57cefdb0f57078ae2dab21c3689e00b3fc39a603
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/702d0668c4d7a931cfb75113c8e410d0845503ecdaec3f0630b1558c2d813350/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 57cefdb0f57078ae2dab21c3689e00b3fc39a603 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 57cefdb0f57078ae2dab21c3689e00b3fc39a603 # timeout=10
+Commit message: "ARTCIS-18217 Rename release/vcuv2_gi to release/cis_gi"
+Loading library hicilib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ # timeout=10
+Found match: refs/heads/master revision ad4d82b5a058c9c8fdbdd480b62aeb8cca468649
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/d261c62012accc97ea8881a8a352b3abe14b1c9a6c26b1ad609eac011128df3e/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ad4d82b5a058c9c8fdbdd480b62aeb8cca468649 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ad4d82b5a058c9c8fdbdd480b62aeb8cca468649 # timeout=10
+Commit message: "[ARTHIN-13694] Archive the Conan build Generated folder"
+Loading library testlib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/csp/products/hi/test # timeout=10
+Found match: refs/heads/master revision 4e8c47f2a77f0dbaefd3d2c6c80c5446076986e2
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/dbffb5705647e2b4e3a3c67357772b0a5ec703a4f493f2b05a77f03fd0d076af/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi/test # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi/test
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/hi/test +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 4e8c47f2a77f0dbaefd3d2c6c80c5446076986e2 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4e8c47f2a77f0dbaefd3d2c6c80c5446076986e2 # timeout=10
+Commit message: "NO-JIRA: add traceablity matrix builder for TA .md"
+Loading library refresh-artifactory-token@v1.0.0
+Attempting to resolve v1.0.0 from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git ls-remote -- https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Found match: refs/tags/v1.0.0 revision ba596c79745111dc228904a292e48b0607e2506e
+Resolving tag commit... (remote references may be a lightweight tag or an annotated tag)
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-d492bfbab452f4c3c6fe4bd5b2b50dad/.git # timeout=10
+Setting origin to https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token
+ > git config remote.origin.url https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/tags/v1.0.0^{commit} # timeout=10
+Resolved tag v1.0.0 revision ba596c79745111dc228904a292e48b0607e2506e
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential gerrit.volvocars.net-artcspci
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/87d56b6697976fd915463213d3a2695d39e6a9c650238a1d61daba49eef2c09c/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Fetching with tags
+Fetching upstream changes from https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git fetch --tags --force --progress -- https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ba596c79745111dc228904a292e48b0607e2506e (v1.0.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba596c79745111dc228904a292e48b0607e2506e # timeout=10
+Commit message: "Use named params"
+ > git rev-list --no-walk ba596c79745111dc228904a292e48b0607e2506e # timeout=10
+[Pipeline] Start of Pipeline
+[Pipeline] properties
+[Pipeline] node
+Running on hibuildv1-1 in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps
+[Pipeline] {
+[Pipeline] pwd
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Clearing workspace [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] stage
+[Pipeline] { (Clearing workspace)
+[Pipeline] deleteDir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Download HI manifest repo)
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Cloning HI manifest repo and fetching refs/changes/77/277677/3 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] withCredentials
+Masking supported pattern matches of %GERRIT_API_TOKEN%
+[Pipeline] {
+[Pipeline] sh
++ curl -s -u artcspcm:**** https://csp-gerrit.volvocars.biz/a/changes/277677
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] readJSON
+[Pipeline] isUnix
+[Pipeline] checkout
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Honoring refspec on initial clone
+Cloning repository https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests
+ > git init C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.2.windows.1'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress --depth=1 -- https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests refs/changes/77/277677/3 # timeout=10
+Avoid second fetch
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests # timeout=10
+ > git config --add remote.origin.fetch refs/changes/77/277677/3 # timeout=10
+ > git rev-parse "origin/FETCH_HEAD^{commit}" # timeout=10
+Checking out Revision 269d2748ca37ddbf23417ada780e9864dd7aad85 (FETCH_HEAD)
+Commit message: "update with latest HIA platform 2310."
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Setup python venv and get current commit)
+[Pipeline] dir
+Running in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests
+[Pipeline] {
+[Pipeline] pwd
+[Pipeline] sh
+ > git rev-parse "FETCH_HEAD^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 269d2748ca37ddbf23417ada780e9864dd7aad85 # timeout=10
++ python -m venv .venv
++ source .venv/Scripts/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='/c/Program Files/OpenSSH:/c/Users/artcspci/Downloads/OpenSSH-Win64:/c/Program Files/Microsoft/jdk-17.0.10.7-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/ProgramData/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/cmd:/usr/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/artcspci/AppData/Local/TokenUpdater'
+++ PATH='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv/Scripts:/c/Program Files/OpenSSH:/c/Users/artcspci/Downloads/OpenSSH-Win64:/c/Program Files/Microsoft/jdk-17.0.10.7-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/ProgramData/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/cmd:/usr/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/artcspci/AppData/Local/TokenUpdater'
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
++ pip install -r C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/jenkins/requirements.txt
+Collecting conan==1.62.0
+  Using cached conan-1.62.0.tar.gz (787 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting GitPython==3.1.41
+  Using cached GitPython-3.1.41-py3-none-any.whl (196 kB)
+Collecting python-gerrit-api==3.0.8
+  Using cached python_gerrit_api-3.0.8-py3-none-any.whl (63 kB)
+Collecting requests<3.0.0,>=2.25
+  Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting urllib3<1.27,>=1.26.6
+  Using cached urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+Collecting colorama<0.5.0,>=0.3.3
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting PyYAML<6.1,>=3.11
+  Using cached PyYAML-6.0.2-cp310-cp310-win_amd64.whl (161 kB)
+Collecting patch-ng<1.18,>=1.17.4
+  Using cached patch-ng-1.17.4.tar.gz (17 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting fasteners>=0.14.1
+  Using cached fasteners-0.19-py3-none-any.whl (18 kB)
+Collecting six<=1.16.0,>=1.10.0
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting node-semver==0.6.1
+  Using cached node_semver-0.6.1-py3-none-any.whl (10 kB)
+Collecting pygments<3.0,>=2.0
+  Using cached pygments-2.19.1-py3-none-any.whl (1.2 MB)
+Collecting tqdm<5,>=4.28.1
+  Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting python-dateutil<3,>=2.7.0
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting bottle<0.13,>=0.12.8
+  Using cached bottle-0.12.25-py3-none-any.whl (90 kB)
+Collecting pluginbase>=0.5
+  Using cached pluginbase-1.0.1.tar.gz (43 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting PyJWT<3.0.0,>=2.4.0
+  Using cached PyJWT-2.10.1-py3-none-any.whl (22 kB)
+Collecting Jinja2<4.0.0,>=3.0
+  Using cached jinja2-3.1.5-py3-none-any.whl (134 kB)
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+Collecting smmap<6,>=3.0.1
+  Using cached smmap-5.0.2-py3-none-any.whl (24 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp310-cp310-win_amd64.whl (15 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.10-py3-none-any.whl (70 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached charset_normalizer-3.4.1-cp310-cp310-win_amd64.whl (102 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2024.12.14-py3-none-any.whl (164 kB)
+Using legacy 'setup.py install' for conan, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for patch-ng, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for pluginbase, since package 'wheel' is not installed.
+Installing collected packages: pluginbase, patch-ng, node-semver, bottle, urllib3, smmap, six, PyYAML, PyJWT, pygments, MarkupSafe, idna, fasteners, colorama, charset-normalizer, certifi, tqdm, requests, python-dateutil, Jinja2, gitdb, python-gerrit-api, GitPython, conan
+  Running setup.py install for pluginbase: started
+  Running setup.py install for pluginbase: finished with status 'done'
+  Running setup.py install for patch-ng: started
+  Running setup.py install for patch-ng: finished with status 'done'
+  Running setup.py install for conan: started
+  Running setup.py install for conan: finished with status 'done'
+Successfully installed GitPython-3.1.41 Jinja2-3.1.5 MarkupSafe-3.0.2 PyJWT-2.10.1 PyYAML-6.0.2 bottle-0.12.25 certifi-2024.12.14 charset-normalizer-3.4.1 colorama-0.4.6 conan-1.62.0 fasteners-0.19 gitdb-4.0.12 idna-3.10 node-semver-0.6.1 patch-ng-1.17.4 pluginbase-1.0.1 pygments-2.19.1 python-dateutil-2.9.0.post0 python-gerrit-api-3.0.8 requests-2.32.3 six-1.16.0 smmap-5.0.2 tqdm-4.67.1 urllib3-1.26.20
+
+[notice] A new release of pip available: 22.2.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
++ where python
+C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv\Scripts\python.exe
+C:\Users\artcspci\AppData\Local\Programs\Python\Python310\python.exe
+C:\Users\artcspci\AppData\Local\Microsoft\WindowsApps\python.exe
++ python --version
+Python 3.10.7
+[Pipeline] sh
++ git rev-parse HEAD
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Configuring Conan)
+[Pipeline] withCredentials
+Masking supported pattern matches of %ARA_APIKEY%
+[Pipeline] {
+[Pipeline] dir
+Running in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests
+[Pipeline] {
+[Pipeline] bat
+
+C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests>.venv\Scripts\activate.bat   && jenkins\scripts\setup_conan.bat --token **** --user artcspci 
+Trying to clone repo: ssh://csp-gerrit-ssh.volvocars.net/csp/hi/tools/conan
+Repo cloned!
+Processing conan.conf
+Copying file global.conf to C:\Users\artcspci\.conan\.
+Defining remotes from remotes.json
+Installing settings.yml
+Copying file check_conans_import.py to C:\Users\artcspci\.conan\hooks
+Copying file check_conan_version.py to C:\Users\artcspci\.conan\hooks
+Copying file check_self_copy.py to C:\Users\artcspci\.conan\hooks
+Copying file default to C:\Users\artcspci\.conan\profiles
+Copying file tricore to C:\Users\artcspci\.conan\profiles
+Copying file windows to C:\Users\artcspci\.conan\profiles
+Copying file windows_tricore to C:\Users\artcspci\.conan\profiles
+User of remote 'vcc-conan-develop' is already 'artcspci'
+User of remote 'vcc-conan-lts' is already 'artcspci'
+User of remote 'conan-center' is already 'artcspci'
+User of remote 'conan-community' is already 'artcspci'
+User of remote 'bincrafters' is already 'artcspci'
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withCredentials
+Masking supported pattern matches of %GERRIT_API_TOKEN%
+[Pipeline] {
+[Pipeline] sh
++ curl -s -u artcspcm:**** https://csp-gerrit.volvocars.biz/a/changes/277677
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] readJSON
+[Pipeline] isUnix
+[Pipeline] checkout
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Honoring refspec on initial clone
+Cloning repository https://csp-gerrit.volvocars.biz/a/csp/products/hia
+ > git init C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hia # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hia
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.2.windows.1'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress --depth=1 -- https://csp-gerrit.volvocars.biz/a/csp/products/hia +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 6f64904cbcd44085cfa12c684035a55e26571a13 (origin/master)
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hia # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse "origin/master^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6f64904cbcd44085cfa12c684035a55e26571a13 # timeout=10
+Commit message: "Add git attributes change from master and renormalize with git add --renormalize to apply attribute changes"
+ > git rev-list --no-walk 6f64904cbcd44085cfa12c684035a55e26571a13 # timeout=10
+[Pipeline] stage
+[Pipeline] { (Building hia variant dev)
+[Pipeline] withCredentials
+Masking supported pattern matches of %ARA_APIKEY% or %GIT_PASSWORD%
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Building binaries for hia with variant: dev [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] dir
+Running in C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/build
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Cleaning build directory [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] deleteDir
+[Pipeline] sh
++ source ../.venv/Scripts/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='/c/Program Files/OpenSSH:/c/Users/artcspci/Downloads/OpenSSH-Win64:/c/Program Files/Microsoft/jdk-17.0.10.7-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/ProgramData/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/cmd:/usr/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/artcspci/AppData/Local/TokenUpdater'
+++ PATH='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv/Scripts:/c/Program Files/OpenSSH:/c/Users/artcspci/Downloads/OpenSSH-Win64:/c/Program Files/Microsoft/jdk-17.0.10.7-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/ProgramData/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/cmd:/usr/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/artcspci/AppData/Local/TokenUpdater'
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
++ conan remove --locks
+Cache locks removed
+++ '[' n == y ']'
+++ echo ''
++ suffix_value=
++ echo 'Computed suffix_value: '
+Computed suffix_value: 
++ conan install C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/manifests/hia.py -u -pr:b windows -pr:h tricore -o:h production=n -o:h create_a2l=y -o:h build_number=3928 -o:h build_url=https://highgarden.csp-dev.net/jenkins/job/HI-Manifests/job/hix_build_apps/3928/ -o:h git_hash=269d2748ca37ddbf23417ada780e9864dd7aad85 -s:h platform_type=dev -o:h suffix_control=n -o:h official_release=n -o:h suffix_value=
+Conan 1 is on a deprecation path, please consider migrating to Conan 2
+Configuration (profile_host):
+[settings]
+arch=tricore
+build_type=Debug
+compiler=hightec-tricore
+compiler.version=v4.9.4.1
+os=Autosar
+platform_type=dev
+[options]
+build_number=3928
+build_url=https://highgarden.csp-dev.net/jenkins/job/HI-Manifests/job/hix_build_apps/3928/
+create_a2l=y
+git_hash=269d2748ca37ddbf23417ada780e9864dd7aad85
+official_release=n
+production=n
+suffix_control=n
+suffix_value=
+[build_requires]
+*: cmake/3.27.9
+[env]
+[conf]
+
+Configuration (profile_build):
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Debug
+os=Windows
+os_build=Windows
+[options]
+[build_requires]
+*: cmake/3.27.9
+[env]
+[conf]
+
+hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Not found in local cache, looking in remotes...
+hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Trying with 'vcc-conan-lts'...
+hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Trying with 'vcc-conan-develop'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+.hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Downloaded recipe revision 41f7caaf5568b4d913f4ebb765f0cb5486c7c174
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Not found in local cache, looking in remotes...
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Trying with 'vcc-conan-lts'...
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Trying with 'vcc-conan-develop'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Downloaded recipe revision 41f7caaf5568b4d913f4ebb765f0cb5486c7c174
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Not found in local cache, looking in remotes...
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Trying with 'vcc-conan-lts'...
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Trying with 'vcc-conan-develop'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Downloaded recipe revision 41f7caaf5568b4d913f4ebb765f0cb5486c7c174
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Not found in local cache, looking in remotes...
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Trying with 'vcc-conan-lts'...
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Trying with 'vcc-conan-develop'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Downloaded recipe revision 41f7caaf5568b4d913f4ebb765f0cb5486c7c174
+Version ranges solved
+    baseline_for_python_dev/*@VCC-tools/stable versions found in 'vcc-conan-lts' remote
+    Version range '~5.0' required by 'py_require' resolved to 'baseline_for_python_dev/5.0.1@VCC-tools/stable' in remote 'vcc-conan-lts'
+
+hia.py (appHIA/1.0.0): Installing package
+Requirements
+    CarConfigHIA_SPA2/2.4.2@VCC-modules/stable from 'vcc-conan-develop' - Cache
+    MEEHIASPA2/2.0.7@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    ResourceControllerHIA-SPA2/1.2.3@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    ShutdownManagerHIA-SPA2/3.10.1@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    TC3xx_SW_MCAL_FEE_Initial_Data/1.0.4+v1.0@tools/stable from 'vcc-conan-lts' - Cache
+    VehicleModesProviderHIA-SPA2/2.1.1@VCC-modules/stable from 'vcc-conan-develop' - Cache
+    hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev from 'vcc-conan-develop' - Downloaded
+    hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev from 'vcc-conan-develop' - Downloaded
+    hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev from 'vcc-conan-develop' - Downloaded
+    hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev from 'vcc-conan-develop' - Downloaded
+    hia_test_apps/6.5.1@VCC-modules/stable from 'vcc-conan-develop' - Cache
+Python requires
+    hi_delivery_base/1.0.62@VCC-tools/stable
+    baseline_for_python_dev/5.0.1@VCC-tools/stable
+Packages
+    CarConfigHIA_SPA2/2.4.2@VCC-modules/stable:b56f7177e641253bbbdf5df1e5a38d21d27677fb - Cache
+    MEEHIASPA2/2.0.7@VCC-modules/stable:b56f7177e641253bbbdf5df1e5a38d21d27677fb - Cache
+    ResourceControllerHIA-SPA2/1.2.3@VCC-modules/stable:2aa7f260156548d9aea622d4f270ebd14de4c327 - Cache
+    ShutdownManagerHIA-SPA2/3.10.1@VCC-modules/stable:2aa7f260156548d9aea622d4f270ebd14de4c327 - Cache
+    TC3xx_SW_MCAL_FEE_Initial_Data/1.0.4+v1.0@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    VehicleModesProviderHIA-SPA2/2.1.1@VCC-modules/stable:db35cf4bd0f0d26c41dba016a56d83d982d79807 - Cache
+    hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev:c747d8ec64140fd17832a66ae46dbfd11111296e - Download
+    hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev:c747d8ec64140fd17832a66ae46dbfd11111296e - Download
+    hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev:c747d8ec64140fd17832a66ae46dbfd11111296e - Download
+    hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev:6b38225de40fa9294eca185f56243edce902aeea - Download
+    hia_test_apps/6.5.1@VCC-modules/stable:6a5e95985f2fe9762703fa4fa05da1c37431d56e - Cache
+Build requirements
+    a2l_tools/1.0.1+1.0p15@tools/stable from 'vcc-conan-lts' - Cache
+    cmake/3.27.9 from 'conan-center' - Cache
+    hexview/1.0.1+v1.12.08@tools/stable from 'vcc-conan-lts' - Cache
+    hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable from 'vcc-conan-lts' - Cache
+    hi_resign/1.0.0+v0.0.1@tools/stable from 'vcc-conan-lts' - Cache
+    hightec_tricore/1.0.4+v4.9.4.1@tools/stable from 'vcc-conan-lts' - Cache
+    vecs/1.8.0@VCC-tools/stable from 'vcc-conan-lts' - Cache
+Build requirements packages
+    a2l_tools/1.0.1+1.0p15@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    cmake/3.27.9:ca33edce272a279b24f87dc0d4cf5bbdcffbc187 - Cache
+    hexview/1.0.1+v1.12.08@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    hi_resign/1.0.0+v0.0.1@tools/stable:3ef4f8a4f7398eaa0f1521ada5848340d86c71ef - Cache
+    hightec_tricore/1.0.4+v4.9.4.1@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    vecs/1.8.0@VCC-tools/stable:60b04a80ac4dd5c23f1acffacc679e9902e636e5 - Cache
+
+Cross-build from 'Windows:x86_64' to 'None:tricore'
+Installing (downloading, building) binaries...
+Downloading binary packages in 8 parallel threads
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Retrieving package c747d8ec64140fd17832a66ae46dbfd11111296e from remote 'vcc-conan-develop' 
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Retrieving package c747d8ec64140fd17832a66ae46dbfd11111296e from remote 'vcc-conan-develop' 
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Retrieving package c747d8ec64140fd17832a66ae46dbfd11111296e from remote 'vcc-conan-develop' 
+hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Retrieving package 6b38225de40fa9294eca185f56243edce902aeea from remote 'vcc-conan-develop' 
+Downloading conanmanifest.txt
+Downloading conanmanifest.txt
+Downloading conanmanifest.txt
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+Downloading conaninfo.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+Downloading conan_package.tgz
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Package installed c747d8ec64140fd17832a66ae46dbfd11111296e
+hia_hsm/0.0.3_hsm_41f7caaf5@hi_sw/dev: Downloaded package revision 7e5aa04474bacebbbebf5e63f1611e97
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Package installed c747d8ec64140fd17832a66ae46dbfd11111296e
+hia_sbl/0.0.1_sbl_41f7caaf5@hi_sw/dev: Downloaded package revision 9bc4c02cbac5b8602a8f9ae9221fc583
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Package installed c747d8ec64140fd17832a66ae46dbfd11111296e
+hia_pbl/0.0.1_pbl_41f7caaf5@hi_sw/dev: Downloaded package revision ae9084898e569fcd8fbcdf99f745a14e
+hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Package installed 6b38225de40fa9294eca185f56243edce902aeea
+hia_spa2_update_platform/2310.1.2_41f7caaf@hi_sw/dev: Downloaded package revision 0c5aaa66f25352a1ad7a3a8f53ccbd9e
+CarConfigHIA_SPA2/2.4.2@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\6b421e\1
+Processing YAML file: C:\.conan\6b421e\1\yaml\CarConfigProxyHIA.yaml
+Found all SoftwareComponents in CarConfigHIA_SPA2: {'CarConfigHIA_SPA2': ['CarconfigMgr']}
+MEEHIASPA2/2.0.7@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\561865\1
+Processing YAML file: C:\.conan\561865\1\yaml\MEEHIA.yaml
+Found all SoftwareComponents in MEEHIASPA2: {'MEEHIASPA2': ['ElectricalHealthRedundant', 'ADSeparationSwitchCoordinator']}
+ResourceControllerHIA-SPA2/1.2.3@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\01f09f\1
+Processing YAML file: C:\.conan\01f09f\1\yaml\ResourceControllerHIASPA2.yaml
+Found all SoftwareComponents in ResourceControllerHIA-SPA2: {'ResourceControllerHIA-SPA2': ['ResourceControllerHIASPA2']}
+ShutdownManagerHIA-SPA2/3.10.1@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\0998a5\1
+Processing YAML file: C:\.conan\0998a5\1\yaml\ShutdownManagerHIASPA2.yaml
+Found all SoftwareComponents in ShutdownManagerHIA-SPA2: {'ShutdownManagerHIA-SPA2': ['ShutdownManagerHIASPA2']}
+TC3xx_SW_MCAL_FEE_Initial_Data/1.0.4+v1.0@tools/stable: Already installed!
+VehicleModesProviderHIA-SPA2/2.1.1@VCC-modules/stable: Already installed!
+source_folder location: C:\.conan\d3c0b7\1\yaml
+Processing YAML file: C:\.conan\d3c0b7\1\yaml\VehicleModesHIASPA2.yaml
+components_list:{'VehicleModesHIASPA2'}
+Found all SoftwareComponents in VehicleModesProviderHIA-SPA2: {'VehicleModesProviderHIA-SPA2': ['VehicleModesHIASPA2']}
+a2l_tools/1.0.1+1.0p15@tools/stable: Already installed!
+cmake/3.27.9: Already installed!
+cmake/3.27.9: Appending PATH environment variable: C:\Users\artcspci\.conan\data\cmake\3.27.9\_\_\package\ca33edce272a279b24f87dc0d4cf5bbdcffbc187\bin
+hexview/1.0.1+v1.12.08@tools/stable: Already installed!
+hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable: Already installed!
+hi_resign/1.0.0+v0.0.1@tools/stable: Already installed!
+hi_resign/1.0.0+v0.0.1@tools/stable: Build folder during package_info: C:\.conan\fffcde\1
+hia_test_apps/6.5.1@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\719bc5\1
+Processing YAML file: C:\.conan\719bc5\1\yaml\SWC_TstNodesHIA_MAIN_6.yaml
+Found all SoftwareComponents in hia_test_apps: {'hia_test_apps': ['TstNodesHIA_SWC']}
+hightec_tricore/1.0.4+v4.9.4.1@tools/stable: Already installed!
+vecs/1.8.0@VCC-tools/stable: Already installed!
+hia.py (appHIA/1.0.0): Applying build-requirement: cmake/3.27.9
+hia.py (appHIA/1.0.0): Applying build-requirement: vecs/1.8.0@VCC-tools/stable
+hia.py (appHIA/1.0.0): Applying build-requirement: hexview/1.0.1+v1.12.08@tools/stable
+hia.py (appHIA/1.0.0): Applying build-requirement: a2l_tools/1.0.1+1.0p15@tools/stable
+hia.py (appHIA/1.0.0): Applying build-requirement: hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable
+hia.py (appHIA/1.0.0): Applying build-requirement: hightec_tricore/1.0.4+v4.9.4.1@tools/stable
+hia.py (appHIA/1.0.0): Applying build-requirement: hi_resign/1.0.0+v0.0.1@tools/stable
+hia.py (appHIA/1.0.0): Generator txt created conanbuildinfo.txt
+hia.py (appHIA/1.0.0): Calling generate()
+hia.py (appHIA/1.0.0): Copied 1 '.yml' file: resign_config.yml
+hia.py (appHIA/1.0.0): Copied 1 '.pem' file: S67_HIA_SPR-PRIVATE.pem
+hia.py (appHIA/1.0.0): Copied 1 '.ld' file: vLinkGen_Template.ld
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: template.txt
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: template.txt
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: template.txt
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: template.txt
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: template.txt
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: template.txt
+hia.py (appHIA/1.0.0): Copied 1 '.txt' file: CMakeLists.txt
+hia.py (appHIA/1.0.0): Copied 1 '.c' file: null.c
+hia.py (appHIA/1.0.0): Copied 1 '.vbf' file: 32453775WVA.vbf
+hia.py (appHIA/1.0.0): Copied 1 '.vbf' file: 32453807WVA.vbf
+hia.py (appHIA/1.0.0): Copied 1 '.vbf' file: 32453791WVA.vbf
+hia.py (appHIA/1.0.0): Copied 1 '.hex' file: sblHIA.hex
+hia.py (appHIA/1.0.0): Copied 6 '.hex' files
+hia.py (appHIA/1.0.0): Copied 3 '.hex' files: hsmHIA.hex, hsmHIA_valid_pattern.hex, hsmUpdHIA.hex
+hia.py (appHIA/1.0.0): Copied 3 '.hex' files: hsmHIA.hex, hsmHIA_valid_pattern.hex, hsmUpdHIA.hex
+hia.py (appHIA/1.0.0): Copied 3 '.hex' files: hsmHIA.hex, hsmHIA_valid_pattern.hex, hsmUpdHIA.hex
+hia.py (appHIA/1.0.0): WARN: No PBL map file available in the pbl component package.
+hia.py (appHIA/1.0.0): Copied 1 '.ld' file: vLinkGen_Template_fbl.ld
+hia.py (appHIA/1.0.0): Copied 1 '.ld' file: vLinkGen_Template.ld
+hia.py (appHIA/1.0.0): Copied 1 '.bat' file: CreateHsmUpdContainerAndHeader.bat
+hia.py (appHIA/1.0.0): Copied 1 '.pem' file: S73_HIA_HSM_SPR-PRIVATE.pem
+hia.py (appHIA/1.0.0): Copied 1 '.hex' file: TC3xx_SW_MCAL_FEE_Initial_Data.hex
+hia.py (appHIA/1.0.0): Using the following platform paths:
+hia.py (appHIA/1.0.0):   Linker file: C:/.conan/8d66b6/1/misc/linker/vLinkGen_Template.ld
+hia.py (appHIA/1.0.0):   Postbuild file: C:/.conan/8d66b6/1/misc/postbuild.bat
+hia.py (appHIA/1.0.0): Preset 'debug' added to CMakePresets.json. Invoke it manually using 'cmake --preset debug'
+hia.py (appHIA/1.0.0): If your CMake version is not compatible with CMakePresets (<3.19) call cmake like: 'cmake <path> -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE=C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build\conan_toolchain.cmake -DCMAKE_MAKE_PROGRAM=C:/.conan/0b5e69/1/bin/make.exe -DPLATFORM_COMPILER_FLAGS=C:/.conan/8d66b6/1/cmake/SetCompilerFlags.cmake -DLINKER_FILE=C:/.conan/8d66b6/1/misc/linker/vLinkGen_Template.ld -DHEX_POSTPROCESS_SCRIPT=C:/.conan/8d66b6/1/misc/postbuild.bat -DCAL_CFG_GEN_SCRIPT=None -DHIX=HIA -DMAP_FILE_CHECK_SCRIPT=C:/.conan/8d66b6/1/misc\hix_map_file_check.py -DMASTER_A2L_TEMPLATE_FILE=C:/.conan/8d66b6/1/misc/a2l/Master_Template.a2l -DSIGN_OPTS=C:\.conan\8d66b6\1\misc\settings\hexview\signature_options.ini -DSIGN_OPTS_CAL=C:\.conan\8d66b6\1\misc\settings\hexview\signature_options_Cal.ini -DSIGN_KEY=C:\.conan\8d66b6\1\misc\settings\hexview\signature_key.txt -DVECS_APP_OPTIONS=C:\.conan\8d66b6\1\misc\settings\vecs\vecs_options.txt -DVECS_APP_CAL_OPTIONS=C:\.conan\8d66b6\1\misc\settings\vecs\vecs_options_cal.txt -DRESIGN_CONFIG=C:\.conan\8d66b6\1\misc\settings\re-sign\resign_config.yml -DRESIGN_KEY_PATH=C:/.conan/8d66b6/1/misc/settings/re-sign/ -DVECS_TOOL=C:\Users\artcspci\.conan\data\vecs\1.8.0\VCC-tools\stable\package\60b04a80ac4dd5c23f1acffacc679e9902e636e5\bin\vecs.exe -DOBJDUMP_TOOL=C:\.conan\0b5e69\1\bin\tricore-objdump.exe -DVECS_DIR=C:/.conan/8d66b6/1/misc/settings/vecs -DVCC_A2L_CREATOR=C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lCreator -DVCC_A2L_MERGE=C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lMerge -DVCC_A2L_ADDRESS_UPDATE=C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lAddressUpdate -DVBF_TYPE=dev -DVARIANT_NAME=DEV_VARIANT -DPACKAGE_NAME=appHIA -DPLATFORM_NAME=hia_spa2_update_platform -DPRODUCTION=n -DSTRIP_SYMBOLS=n -DA2L_CREATE_ENABLE=y -DA2L_MERGE_ENABLE=y -DA2L_ADDRESS_UPDATE_ENABLE=y -DRESIGN_TOOL=C:\.conan\fffcde\1\hi_resign\hsm_resign.py -DRESIGN_VS_TOOL=C:\.conan\fffcde\1\hi_resign\vs.py -DPYTHON_CMD=C:\.conan\37f60a\1\python.exe -DSRC_LIST=C:/.conan/6b421e/1/src/;C:/.conan/719bc5/1/src/;C:/.conan/719bc5/1/inc/;C:/.conan/561865/1/src/;C:/.conan/561865/1/inc/;C:/.conan/01f09f/1/src/;C:/.conan/01f09f/1/inc/;C:/.conan/0998a5/1/src/;C:/.conan/0998a5/1/inc/;C:/.conan/d3c0b7/1/src/;C:/.conan/d3c0b7/1/inc/;C:/.conan/8d66b6/1/inc/app/Appl/Common/;C:/.conan/8d66b6/1/inc/app/Appl/HiActivationManager/;C:/.conan/8d66b6/1/inc/app/Appl/MemMap/;C:/.conan/8d66b6/1/inc/app/Appl/Shell/;C:/.conan/8d66b6/1/inc/app/common/components/;C:/.conan/8d66b6/1/inc/app/common/components/iohwab_adc/;C:/.conan/8d66b6/1/inc/app/common/components/production/;C:/.conan/8d66b6/1/inc/app/common/components/shell/;C:/.conan/8d66b6/1/inc/app/common/components/uart_driver/;C:/.conan/8d66b6/1/inc/bsw/_Common/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Com/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Crc/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Det/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Mcal_Tc3xx/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Os/Implementation/;C:/.conan/8d66b6/1/inc/bsw/VStdLib/Implementation/;C:/.conan/8d66b6/1/inc/GenData/;C:/.conan/8d66b6/1/inc/GenData/Components/;C:/.conan/8d66b6/1/inc/GenData/inc/;C:/.conan/8d66b6/1/inc/mcal/_Reg/;C:/.conan/8d66b6/1/inc/mcal/modules/McalLib/;C:/.conan/8d66b6/1/inc/mcal/modules/Dio/;C:/.conan/8d66b6/1/inc/mcal/modules/Adc/;C:/.conan/8d66b6/1/inc/mcal/modules/Mcu/;C:/.conan/8d66b6/1/inc/mcal/modules/Port/;C:/.conan/8d66b6/1/inc/bsw/ComM/Implementation/;C:/.conan/8d66b6/1/inc/bsw/I2c/Implementation/;C:/.conan/8d66b6/1/inc/app/Appl/I2c/;C:/.conan/8d66b6/1/inc/mcal/modules/Mcu/;C:/.conan/8d66b6/1/inc/bsw/ComM/Implementation/;C:/.conan/8d66b6/1/inc/bsw/WdgM/Implementation/;C:/.conan/8d66b6/1/inc/mcal/modules/Spi/;C:/.conan/8d66b6/1/inc/mcal/modules/Dma/;C:/.conan/8d66b6/1/inc/bsw/E2E/Implementation/;C:/.conan/8d66b6/1/inc/app/Appl/iohwab/;C:/.conan/8d66b6/1/inc/app/common/components/utils/; -DSRC_COMPONENTS=CarConfigHIA_SPA2;hia_test_apps;MEEHIASPA2;ResourceControllerHIA-SPA2;ShutdownManagerHIA-SPA2;VehicleModesProviderHIA-SPA2; -DCOMPONENT_SRC_LIST=CarConfigHIA_SPA2;ShutdownManagerHIA-SPA2;hia_test_apps;MEEHIASPA2;ResourceControllerHIA-SPA2;VehicleModesProviderHIA-SPA2 -DCMAKE_SH=CMAKE_SH-NOTFOUND -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Debug'
+hia.py (appHIA/1.0.0): Aggregating env generators
+hia.py (appHIA/1.0.0): Generated conaninfo.txt
+hia.py (appHIA/1.0.0): Generated graphinfo
++ conan source C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/manifests/hia.py
+Using lockfile: 'C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build/conan.lock'
+Using cached profile from lockfile
+hia.py (appHIA/1.0.0): Configuring sources in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build
+hia.py (appHIA/1.0.0): Executing exports to: C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build
+[Pipeline] sh
++ source ../.venv/Scripts/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='/c/Program Files/OpenSSH:/c/Users/artcspci/Downloads/OpenSSH-Win64:/c/Program Files/Microsoft/jdk-17.0.10.7-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/ProgramData/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/cmd:/usr/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/artcspci/AppData/Local/TokenUpdater'
+++ PATH='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\.venv/Scripts:/c/Program Files/OpenSSH:/c/Users/artcspci/Downloads/OpenSSH-Win64:/c/Program Files/Microsoft/jdk-17.0.10.7-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/ProgramData/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/cmd:/usr/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/artcspci/AppData/Local/TokenUpdater'
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
++ conan build C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/manifests/hia.py
+Conan 1 is on a deprecation path, please consider migrating to Conan 2
+Using lockfile: 'C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build/conan.lock'
+Using cached profile from lockfile
+hia.py (appHIA/1.0.0): Calling build()
+hia.py (appHIA/1.0.0): CMake command: cmake -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE="C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/build/conan_toolchain.cmake" -DCMAKE_INSTALL_PREFIX="C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/build/package" -DCMAKE_MAKE_PROGRAM="C:/.conan/0b5e69/1/bin/make.exe" -DPLATFORM_COMPILER_FLAGS="C:/.conan/8d66b6/1/cmake/SetCompilerFlags.cmake" -DLINKER_FILE="C:/.conan/8d66b6/1/misc/linker/vLinkGen_Template.ld" -DHEX_POSTPROCESS_SCRIPT="C:/.conan/8d66b6/1/misc/postbuild.bat" -DCAL_CFG_GEN_SCRIPT="None" -DHIX="HIA" -DMAP_FILE_CHECK_SCRIPT="C:/.conan/8d66b6/1/misc\hix_map_file_check.py" -DMASTER_A2L_TEMPLATE_FILE="C:/.conan/8d66b6/1/misc/a2l/Master_Template.a2l" -DSIGN_OPTS="C:\.conan\8d66b6\1\misc\settings\hexview\signature_options.ini" -DSIGN_OPTS_CAL="C:\.conan\8d66b6\1\misc\settings\hexview\signature_options_Cal.ini" -DSIGN_KEY="C:\.conan\8d66b6\1\misc\settings\hexview\signature_key.txt" -DVECS_APP_OPTIONS="C:\.conan\8d66b6\1\misc\settings\vecs\vecs_options.txt" -DVECS_APP_CAL_OPTIONS="C:\.conan\8d66b6\1\misc\settings\vecs\vecs_options_cal.txt" -DRESIGN_CONFIG="C:\.conan\8d66b6\1\misc\settings\re-sign\resign_config.yml" -DRESIGN_KEY_PATH="C:/.conan/8d66b6/1/misc/settings/re-sign/" -DVECS_TOOL="C:\Users\artcspci\.conan\data\vecs\1.8.0\VCC-tools\stable\package\60b04a80ac4dd5c23f1acffacc679e9902e636e5\bin\vecs.exe" -DOBJDUMP_TOOL="C:\.conan\0b5e69\1\bin\tricore-objdump.exe" -DVECS_DIR="C:/.conan/8d66b6/1/misc/settings/vecs" -DVCC_A2L_CREATOR="C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lCreator" -DVCC_A2L_MERGE="C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lMerge" -DVCC_A2L_ADDRESS_UPDATE="C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lAddressUpdate" -DVBF_TYPE="dev" -DVARIANT_NAME="DEV_VARIANT" -DPACKAGE_NAME="appHIA" -DPLATFORM_NAME="hia_spa2_update_platform" -DPRODUCTION="n" -DSTRIP_SYMBOLS="n" -DA2L_CREATE_ENABLE="y" -DA2L_MERGE_ENABLE="y" -DA2L_ADDRESS_UPDATE_ENABLE="y" -DRESIGN_TOOL="C:\.conan\fffcde\1\hi_resign\hsm_resign.py" -DRESIGN_VS_TOOL="C:\.conan\fffcde\1\hi_resign\vs.py" -DPYTHON_CMD="C:\.conan\37f60a\1\python.exe" -DSRC_LIST="C:/.conan/6b421e/1/src/;C:/.conan/719bc5/1/src/;C:/.conan/719bc5/1/inc/;C:/.conan/561865/1/src/;C:/.conan/561865/1/inc/;C:/.conan/01f09f/1/src/;C:/.conan/01f09f/1/inc/;C:/.conan/0998a5/1/src/;C:/.conan/0998a5/1/inc/;C:/.conan/d3c0b7/1/src/;C:/.conan/d3c0b7/1/inc/;C:/.conan/8d66b6/1/inc/app/Appl/Common/;C:/.conan/8d66b6/1/inc/app/Appl/HiActivationManager/;C:/.conan/8d66b6/1/inc/app/Appl/MemMap/;C:/.conan/8d66b6/1/inc/app/Appl/Shell/;C:/.conan/8d66b6/1/inc/app/common/components/;C:/.conan/8d66b6/1/inc/app/common/components/iohwab_adc/;C:/.conan/8d66b6/1/inc/app/common/components/production/;C:/.conan/8d66b6/1/inc/app/common/components/shell/;C:/.conan/8d66b6/1/inc/app/common/components/uart_driver/;C:/.conan/8d66b6/1/inc/bsw/_Common/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Com/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Crc/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Det/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Mcal_Tc3xx/Implementation/;C:/.conan/8d66b6/1/inc/bsw/Os/Implementation/;C:/.conan/8d66b6/1/inc/bsw/VStdLib/Implementation/;C:/.conan/8d66b6/1/inc/GenData/;C:/.conan/8d66b6/1/inc/GenData/Components/;C:/.conan/8d66b6/1/inc/GenData/inc/;C:/.conan/8d66b6/1/inc/mcal/_Reg/;C:/.conan/8d66b6/1/inc/mcal/modules/McalLib/;C:/.conan/8d66b6/1/inc/mcal/modules/Dio/;C:/.conan/8d66b6/1/inc/mcal/modules/Adc/;C:/.conan/8d66b6/1/inc/mcal/modules/Mcu/;C:/.conan/8d66b6/1/inc/mcal/modules/Port/;C:/.conan/8d66b6/1/inc/bsw/ComM/Implementation/;C:/.conan/8d66b6/1/inc/bsw/I2c/Implementation/;C:/.conan/8d66b6/1/inc/app/Appl/I2c/;C:/.conan/8d66b6/1/inc/mcal/modules/Mcu/;C:/.conan/8d66b6/1/inc/bsw/ComM/Implementation/;C:/.conan/8d66b6/1/inc/bsw/WdgM/Implementation/;C:/.conan/8d66b6/1/inc/mcal/modules/Spi/;C:/.conan/8d66b6/1/inc/mcal/modules/Dma/;C:/.conan/8d66b6/1/inc/bsw/E2E/Implementation/;C:/.conan/8d66b6/1/inc/app/Appl/iohwab/;C:/.conan/8d66b6/1/inc/app/common/components/utils/;" -DSRC_COMPONENTS="CarConfigHIA_SPA2;hia_test_apps;MEEHIASPA2;ResourceControllerHIA-SPA2;ShutdownManagerHIA-SPA2;VehicleModesProviderHIA-SPA2;" -DCOMPONENT_SRC_LIST="CarConfigHIA_SPA2;ShutdownManagerHIA-SPA2;hia_test_apps;MEEHIASPA2;ResourceControllerHIA-SPA2;VehicleModesProviderHIA-SPA2" -DCMAKE_SH="CMAKE_SH-NOTFOUND" -DCMAKE_POLICY_DEFAULT_CMP0091="NEW" -DCMAKE_BUILD_TYPE="Debug" "C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build"
+-- Using Conan toolchain: C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/build/conan_toolchain.cmake
+-- The C compiler identification is GNU 4.9.4
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/.conan/0b5e69/1/bin/tricore-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Conan: Target declared 'hia_spa2_update_platform::hia_spa2_update_platform'
+-- Configuring component: CarConfigHIA_SPA2
+-- Configuring component: ShutdownManagerHIA-SPA2
+-- Configuring component: hia_test_apps
+-- Configuring component: MEEHIASPA2
+-- Configuring component: ResourceControllerHIA-SPA2
+-- Configuring component: VehicleModesProviderHIA-SPA2
+-- Configuring done (15.1s)
+-- Generating done (0.2s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_POLICY_DEFAULT_CMP0091
+    CMAKE_SH
+    SRC_COMPONENTS
+    VARIANT_NAME
+
+
+-- Build files have been written to: C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps/csp/products/hi_manifests/build
+hia.py (appHIA/1.0.0): CMake command: cmake --build "C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build" -- -j24
+[  6%] Building C object hia_test_apps/CMakeFiles/hia_test_apps_dev.dir/C_/.conan/719bc5/1/src/TstNodesHIA_SWC.c.obj
+[ 20%] Building C object ResourceControllerHIA-SPA2/CMakeFiles/ResourceControllerHIA-SPA2_dev.dir/C_/.conan/01f09f/1/src/ResourceControllerHIASPA2.c.obj
+[ 20%] Building C object ShutdownManagerHIA-SPA2/CMakeFiles/ShutdownManagerHIA-SPA2_dev.dir/C_/.conan/0998a5/1/src/ShutdownManagerHIASPA2.c.obj
+[ 26%] Building C object CarConfigHIA_SPA2/CMakeFiles/CarConfigHIA_SPA2_dev.dir/C_/.conan/6b421e/1/src/CarconfigMgr.c.obj
+[ 33%] Building C object VehicleModesProviderHIA-SPA2/CMakeFiles/VehicleModesProviderHIA-SPA2_dev.dir/C_/.conan/d3c0b7/1/src/VehicleModesHIASPA2.c.obj
+[ 40%] Building C object MEEHIASPA2/CMakeFiles/MEEHIASPA2_dev.dir/C_/.conan/561865/1/src/ADSeparationSwitchCoordinator.c.obj
+[ 46%] Building C object MEEHIASPA2/CMakeFiles/MEEHIASPA2_dev.dir/C_/.conan/561865/1/src/ElectricalHealthRedundant.c.obj
+C:\.conan\719bc5\1\src\TstNodesHIA_SWC.c:100:16: warning: 'tstg_dp_hia_uint8_data' defined but not used [-Wunused-variable]
+   static UInt8 tstg_dp_hia_uint8_data;
+                ^
+C:\.conan\719bc5\1\src\TstNodesHIA_SWC.c:113:16: warning: 'tstk_dp_hia_uint8_data' defined but not used [-Wunused-variable]
+   static UInt8 tstk_dp_hia_uint8_data;
+                ^
+[ 53%] Linking C static library libhia_test_apps_dev.a
+C:\.conan\6b421e\1\src\CarconfigMgr.c:171:1: error: conflicting types for 'Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_ReadData'
+ Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_ReadData(
+ ^
+In file included from C:\.conan\6b421e\1\src\CarconfigMgr.c:54:0:
+C:\.conan\8d66b6\1\inc\GenData\Components/Rte_CarconfigMgr.h:255:31: note: previous declaration of 'Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_ReadData' was here
+ FUNC(void, CarconfigMgr_CODE) Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_ReadData(void); /* PRQA S 3451, 0786, 3449 */ /* MD_Rte_3451, MD_Rte_0786, MD_Rte_3449 */
+                               ^
+C:\.conan\6b421e\1\src\CarconfigMgr.c:179:1: error: conflicting types for 'Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_WriteData'
+ Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_WriteData(
+ ^
+In file included from C:\.conan\6b421e\1\src\CarconfigMgr.c:54:0:
+C:\.conan\8d66b6\1\inc\GenData\Components/Rte_CarconfigMgr.h:256:31: note: previous declaration of 'Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_WriteData' was here
+ FUNC(void, CarconfigMgr_CODE) Run_DID_C059_Embedded_Parameters_Read_CombinedSignal_WriteData(void); /* PRQA S 3451, 0786, 3449 */ /* MD_Rte_3451, MD_Rte_0786, MD_Rte_3449 */
+                               ^
+C:\.conan\6b421e\1\src\CarconfigMgr.c: In function 'ReadNvmEmbParam':
+C:\.conan\6b421e\1\src\CarconfigMgr.c:564:5: warning: implicit declaration of function 'CarconfigMgr_NvmBlockNeed_MirrorBlock_Read' [-Wimplicit-function-declaration]
+     if (CarconfigMgr_NvmBlockNeed_MirrorBlock_Read((dtRef_VOID)data) == RTE_E_OK) {
+     ^
+C:\.conan\6b421e\1\src\CarconfigMgr.c: In function 'WriteNvmEmbParam':
+C:\.conan\6b421e\1\src\CarconfigMgr.c:579:5: warning: implicit declaration of function 'CarconfigMgr_NvmBlockNeed_MirrorBlock_Write' [-Wimplicit-function-declaration]
+     if (CarconfigMgr_NvmBlockNeed_MirrorBlock_Write((dtRef_const_VOID)data) == RTE_E_OK) {
+     ^
+[ 60%] Linking C static library libResourceControllerHIA-SPA2_dev.a
+CarConfigHIA_SPA2\CMakeFiles\CarConfigHIA_SPA2_dev.dir\build.make:74: recipe for target 'CarConfigHIA_SPA2/CMakeFiles/CarConfigHIA_SPA2_dev.dir/C_/.conan/6b421e/1/src/CarconfigMgr.c.obj' failed
+make.exe[2]: *** [CarConfigHIA_SPA2/CMakeFiles/CarConfigHIA_SPA2_dev.dir/C_/.conan/6b421e/1/src/CarconfigMgr.c.obj] Error 1
+CMakeFiles\Makefile2:247: recipe for target 'CarConfigHIA_SPA2/CMakeFiles/CarConfigHIA_SPA2_dev.dir/all' failed
+make.exe[1]: *** [CarConfigHIA_SPA2/CMakeFiles/CarConfigHIA_SPA2_dev.dir/all] Error 2
+make.exe[1]: *** Waiting for unfinished jobs....
+[ 66%] Linking C static library libVehicleModesProviderHIA-SPA2_dev.a
+[ 73%] Linking C static library libShutdownManagerHIA-SPA2_dev.a
+[ 80%] Linking C static library libMEEHIASPA2_dev.a
+[ 80%] Built target hia_test_apps_dev
+[ 80%] Built target ResourceControllerHIA-SPA2_dev
+[ 80%] Built target VehicleModesProviderHIA-SPA2_dev
+[ 80%] Built target ShutdownManagerHIA-SPA2_dev
+[ 80%] Built target MEEHIASPA2_dev
+Makefile:89: recipe for target 'all' failed
+make.exe: *** [all] Error 2
+ERROR: 
+	ConanException: Error 2 while executing cmake --build "C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps\csp\products\hi_manifests\build" -- -j24
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;31m [ERROR] Err: Build failed with Error: hudson.AbortException: script returned exit code 1 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] error
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: Failed during build of hia with variant: dev
+Finished: FAILURE
