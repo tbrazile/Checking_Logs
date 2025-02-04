@@ -1,0 +1,383 @@
+[OSB] 14:53:43.557 [ERR] [IA] ContainsValidation failed: Expected 1010 in response 7F3122.
+[OSB] 14:53:43.557 [WRN] [IA] Warning validations failed: { {"validationIncrement":0,"validationReportCode":1600} }.
+[OSB] 14:53:43.557 [WRN] [IA] Command 96: Throwing exception Nrc.
+[OSB] 14:57:07.683 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:07.683 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:07.683 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:07.683 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:07.683 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:10.199 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:10.199 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:10.199 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:10.199 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:10.199 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:12.710 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:12.710 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:12.711 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:12.711 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:12.711 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:15.223 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:15.223 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:15.223 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:15.223 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:15.223 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:17.742 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:17.742 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:17.742 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:17.743 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:17.743 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:20.252 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:20.252 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:20.252 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:20.253 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:20.253 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:22.762 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:22.762 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:22.762 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:22.763 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:22.763 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:25.281 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:25.281 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:25.281 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:25.281 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:25.281 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:27.792 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:27.792 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:27.792 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:27.792 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:27.792 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:30.318 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:30.318 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:30.318 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:30.318 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:30.318 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:32.838 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:32.838 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:32.838 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:32.838 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:32.839 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:35.355 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:35.355 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:35.355 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:35.355 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:35.355 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:37.865 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:37.865 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:37.865 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:37.865 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:37.865 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:40.383 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:40.383 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:40.383 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:40.383 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:40.383 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:42.902 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:42.902 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:42.902 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:42.902 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:42.902 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:45.419 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:45.419 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:45.419 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:45.419 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:45.419 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:57:47.936 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:57:47.936 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:57:47.936 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:57:47.936 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:57:47.937 [WRN] [IA] Command 202: Throwing exception ValidateMismatch.
+[OSB] 14:59:25.077 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:25.078 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:25.078 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:25.078 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:25.078 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:27.594 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:27.594 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:27.594 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:27.594 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:27.594 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:30.099 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:30.099 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:30.099 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:30.099 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:30.099 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:32.604 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:32.604 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:32.604 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:32.604 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:32.605 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:35.124 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:35.124 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:35.124 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:35.125 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:35.125 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:37.636 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:37.636 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:37.636 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:37.636 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:37.636 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:40.152 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:40.152 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:40.152 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:40.153 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:40.153 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:42.671 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:42.671 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:42.671 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:42.671 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:42.671 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:45.190 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:45.190 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:45.190 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:45.190 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:45.190 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:47.707 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:47.707 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:47.707 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:47.707 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:47.707 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:50.223 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:50.224 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:50.224 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:50.224 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:50.224 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:52.734 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:52.734 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:52.734 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:52.734 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:52.735 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:55.246 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:55.246 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:55.246 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:55.246 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:55.246 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 14:59:57.761 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 14:59:57.761 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 14:59:57.761 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 14:59:57.761 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 14:59:57.761 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 15:00:00.268 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:00:00.268 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:00:00.268 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:00:00.268 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:00:00.268 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 15:00:02.788 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:00:02.788 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:00:02.788 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:00:02.788 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:00:02.788 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 15:00:05.305 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:00:05.305 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:00:05.305 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:00:05.305 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:00:05.306 [WRN] [IA] Command 259: Throwing exception ValidateMismatch.
+[OSB] 15:00:26.983 [ERR] [IA] ContainsValidation failed: Expected 62F125 in response 7F2231.
+[OSB] 15:00:26.990 [ERR] [IA] ContainsValidation failed: Expected 62F125 in response 7F2231.
+[OSB] 15:00:27.030 [ERR] [IA] ContainsValidation failed: Expected 62F125 in response 7F2231.
+[OSB] 15:08:05.372 [ERR] [IA] ContainsValidation failed: Expected 1010 in response 7F3122.
+[OSB] 15:08:05.373 [WRN] [IA] Warning validations failed: { {"validationIncrement":0,"validationReportCode":1600} }.
+[OSB] 15:08:05.373 [WRN] [IA] Command 458: Throwing exception Nrc.
+[OSB] 15:08:46.931 [ERR] [IA] ContainsValidation failed: Response is too short. Expected 02 in response .
+[OSB] 15:08:46.931 [WRN] [IA] Warning validations failed: { {"validationIncrement":0,"validationReportCode":3000} }.
+[OSB] 15:08:46.931 [WRN] [IA] Command 491: Throwing exception NoResponse.
+[OSB] 15:08:52.692 [ERR] [IA] Command 513: Failed to send RequestSeed: ResponseTimeout.
+[OSB] 15:11:08.040 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:08.040 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:08.040 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:08.041 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:08.041 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:10.550 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:10.551 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:10.551 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:10.551 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:10.551 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:13.067 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:13.068 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:13.068 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:13.068 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:13.068 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:15.580 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:15.580 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:15.580 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:15.580 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:15.580 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:18.096 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:18.096 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:18.096 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:18.096 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:18.096 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:20.611 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:20.611 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:20.611 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:20.611 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:20.611 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:23.116 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:23.116 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:23.117 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:23.117 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:23.117 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:25.622 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:25.622 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:25.622 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:25.622 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:25.622 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:28.138 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:28.138 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:28.138 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:28.138 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:28.138 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:30.650 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:30.651 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:30.651 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:30.651 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:30.651 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:33.165 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:33.165 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:33.165 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:33.165 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:33.165 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:35.684 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:35.684 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:35.684 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:35.684 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:35.684 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:38.194 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:38.194 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:38.194 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:38.194 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:38.195 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:40.711 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:40.711 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:40.711 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:40.711 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:40.711 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:43.228 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:43.228 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:43.228 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:43.228 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:43.229 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:45.746 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:45.746 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:45.746 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:45.746 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:45.746 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:48.255 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62D99B03.
+[OSB] 15:11:48.255 [ERR] [IA] ContainsValidation failed: Expected 7F2231 in response 62D99B03.
+[OSB] 15:11:48.255 [ERR] [IA] ContainsValidation failed: Expected 06 in response 62D99B03.
+[OSB] 15:11:48.255 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:11:48.255 [WRN] [IA] Command 586: Throwing exception ValidateMismatch.
+[OSB] 15:11:57.422 [ERR] [IA] ContainsValidation failed: Expected 01 in response 62F18603.
+[OSB] 15:12:02.432 [ERR] [IA] CompareValidation failed: Compared response data 03 with expected data 01 using EQ operator. Full response = 62F18603, offset = 3.
+[OSB] 15:12:02.432 [ERR] [IA] CompareValidation failed: Compared response data 62 with expected data 7F using EQ operator. Full response = 62F18603, offset = 0.
+[OSB] 15:12:02.445 [ERR] [IA] CompareValidation failed: Compared response data 00 with expected data 01 using EQ operator. Full response = 62D07400, offset = 3.
+[OSB] 15:12:02.445 [ERR] [IA] CompareValidation failed: Compared response data 62 with expected data 7F using EQ operator. Full response = 62D07400, offset = 0.
+[OSB] 15:12:02.445 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1650}, {"validationIncrement":0,"validationReportCode":1650} }.
+[OSB] 15:12:02.445 [WRN] [IA] Command 630: Throwing exception ValidateMismatch.
+[OSB] 15:12:02.455 [ERR] [IA] CompareValidation failed: Compared response data 10 with expected data 12 using EQ operator. Full response = 62D0D910, offset = 3.
+[OSB] 15:12:02.456 [ERR] [IA] CompareValidation failed: Compared response data 10 with expected data 12 using EQ operator. Full response = 62D0D910, offset = 3.
+[OSB] 15:12:02.456 [ERR] [IA] CompareValidation failed: Response is too short. Expected 12 at offset 3 but got response 7F2231.
+[OSB] 15:12:02.456 [ERR] [IA] ContainsValidation failed: Expected 62D0D9 in response 7F2231.
+[OSB] 15:12:02.472 [ERR] [IA] CompareValidation failed: Compared response data 10 with expected data 12 using EQ operator. Full response = 62D0D910, offset = 3.
+[OSB] 15:12:32.520 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D313.
+[OSB] 15:12:32.520 [ERR] [IA] ContainsValidation failed: Expected D0D312 in response 62D0D313.
+[OSB] 15:12:32.520 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1797}, {"validationIncrement":0,"validationReportCode":1797} }.
+[OSB] 15:12:32.520 [WRN] [IA] Command 665: Throwing exception ValidateMismatch.
+[OSB] 15:12:32.572 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:32.578 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:32.591 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D313.
+[OSB] 15:12:32.592 [ERR] [IA] ContainsValidation failed: Expected D0D312 in response 62D0D313.
+[OSB] 15:12:32.592 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1797}, {"validationIncrement":0,"validationReportCode":1797} }.
+[OSB] 15:12:32.592 [WRN] [IA] Command 689: Throwing exception ValidateMismatch.
+[OSB] 15:12:32.769 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:32.862 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:32.872 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D313.
+[OSB] 15:12:32.872 [ERR] [IA] ContainsValidation failed: Expected D0D312 in response 62D0D313.
+[OSB] 15:12:32.872 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1797}, {"validationIncrement":0,"validationReportCode":1797} }.
+[OSB] 15:12:32.872 [WRN] [IA] Command 713: Throwing exception ValidateMismatch.
+[OSB] 15:12:36.708 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:36.714 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:36.724 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D313.
+[OSB] 15:12:36.724 [ERR] [IA] ContainsValidation failed: Expected D0D312 in response 62D0D313.
+[OSB] 15:12:36.724 [WRN] [IA] Failing validations failed: { {"validationIncrement":0,"validationReportCode":1797}, {"validationIncrement":0,"validationReportCode":1797} }.
+[OSB] 15:12:36.724 [WRN] [IA] Command 737: Throwing exception ValidateMismatch.
+[OSB] 15:12:36.770 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:36.776 [ERR] [IA] ContainsValidation failed: Expected D0D310 in response 62D0D312.
+[OSB] 15:12:36.809 [WRN] [UDS] Received unknown response type from ECU: 0x1fff.
+[OSB] 15:12:36.810 [WRN] [UDS] Received unknown response type from ECU: 0x1fff.
+[OSB] 15:12:40.097 [ERR] [IA] Command 762: Physical request to ECU 0x00001D2C - BPD failed.
+[OSB] 15:12:40.097 [WRN] [IA] Command 762: Vehicle readout request 22F120 failed for ECUs { 0x00001D2C - BPD }.
+[OSB] 15:12:43.421 [ERR] [IA] Command 762: Physical request to ECU 0x00001D2C - BPD failed.
+[OSB] 15:12:43.442 [ERR] [IA] Command 762: Physical request to ECU 0x00001D0D - HIA failed.
+[OSB] 15:12:43.442 [WRN] [IA] Command 762: Vehicle readout request 22F12A failed for ECUs { 0x00001D2C - BPD, 0x00001D0D - HIA }.
+[OSB] 15:12:46.772 [ERR] [IA] Command 762: Physical request to ECU 0x00001D2C - BPD failed.
+[OSB] 15:12:46.772 [WRN] [IA] Command 762: Vehicle readout request 22F12E failed for ECUs { 0x00001D2C - BPD }.
+[OSB] 15:12:46.777 [WRN] [IA] Command 762: Vehicle readout failed for one or more ECUs.
+[OSB] 15:12:46.849 [ERR] InstallationAgent. InstallSoftware failed.
+|**************************************************************|
+|* General SWDL result: FAILURE                               *|
+|**************************************************************|
+|* Installation Status for ECU 1D01, address 1D01: Completed  *|
+|* Installation Status for ECU 1D07, address 1D07: Completed  *|
+|* Installation Status for ECU 1D08, address 1D08: Completed  *|
+|* Installation Status for ECU 1D0B, address 1D0B: Completed  *|
+|* Installation Status for ECU 1D0D, address 1D0D: Completed  *|
+|* Installation Status for ECU 1D0E, address 1D0E: Completed  *|
+|* Installation Status for ECU 1D12, address 1D12: Completed  *|
+|* Installation Status for ECU 1D15, address 1D15: Completed  *|
+|* Installation Status for ECU 1D16, address 1D16: Completed  *|
+|* Installation Status for ECU 1D19, address 1D19: Completed  *|
+|* Installation Status for ECU 1D1A, address 1D1A: Completed  *|
+|* Installation Status for ECU 1D1B, address 1D1B: Completed  *|
+|* Installation Status for ECU 1D20, address 1D20: Completed  *|
+|* Installation Status for ECU 1D21, address 1D21: Completed  *|
+|* Installation Status for ECU 1D24, address 1D24: Completed  *|
+|* Installation Status for ECU 1D2C, address 1D2C: NotStarted *|
+|* Installation Status for ECU 1D36, address 1D36: Completed  *|
+|* Installation Status for ECU 1D37, address 1D37: Completed  *|
+|* Installation Status for ECU 1D38, address 1D38: Completed  *|
+|* Installation Status for ECU 1D88, address 1D88: Completed  *|
+|**************************************************************|
+
+[OSB] 15:12:46.854 [WRN] Instruction executed but there was an error in response. Check report for more information.
+[OSB] 15:12:46.854 [WRN] Failed to log errorCause, please check report for more information.
+[OSB] 15:12:48.307 [ERR] InstallationAgent. InstallSoftware failed.
+|*************************************************************|
+|* General SWDL result: FAILURE                              *|
+|*************************************************************|
+|* Installation Status for ECU HPB, address 1D01: Completed  *|
+|* Installation Status for ECU FGWM, address 1D07: Completed *|
+|* Installation Status for ECU FIOC, address 1D08: Completed *|
+|* Installation Status for ECU FGWA, address 1D0B: Completed *|
+|* Installation Status for ECU HIA, address 1D0D: Completed  *|
+|* Installation Status for ECU HIB, address 1D0E: Completed  *|
+|* Installation Status for ECU HPA, address 1D12: Completed  *|
+|* Installation Status for ECU DGWA, address 1D15: Completed *|
+|* Installation Status for ECU PGWA, address 1D16: Completed *|
+|* Installation Status for ECU DGWM, address 1D19: Completed *|
+|* Installation Status for ECU LPA, address 1D1A: Completed  *|
+|* Installation Status for ECU LPC, address 1D1B: Completed  *|
+|* Installation Status for ECU PGWM, address 1D20: Completed *|
+|* Installation Status for ECU PPD, address 1D21: Completed  *|
+|* Installation Status for ECU SGA, address 1D24: Completed  *|
+|* Installation Status for ECU BPD, address 1D2C: NotStarted *|
+|* Installation Status for ECU VESA, address 1D36: Completed *|
+|* Installation Status for ECU VESB, address 1D37: Completed *|
+|* Installation Status for ECU VESC, address 1D38: Completed *|
+|* Installation Status for ECU HIC, address 1D88: Completed  *|
+|*************************************************************|
+
+[OSB] 15:12:48.309 [ERR] --- Exceptions ---
+[OSB] 15:12:48.309 [ERR] |* Error: Validation - Nrc - HPA*|
+[OSB] 15:12:48.309 [ERR] |* Error: Validation - ValidateMismatch - HPA*|
+[OSB] 15:12:48.309 [ERR] |* Error: Validation - NoResponse - BPD*|
+[OSB] 15:12:48.309 [ERR] |* Error: UnlockEcu - NoResponse - BPD*|
+[OSB] 15:12:48.309 [ERR] |* Error: Validation - ValidateMismatch - LPA*|
+[OSB] 15:12:48.309 [ERR] |* Error: Validation - ValidateMismatch - SGA*|
+[OSB] 15:12:48.309 [ERR] |* Error: Validation - ValidateMismatch - HPB*|
+[OSB] 15:12:48.309 [ERR] |* Error: GeneralCommandError - NoResponse - BPD*|
+[OSB] 15:12:48.309 [ERR] |* Error: GeneralCommandError - Nrc - HIA*|
+[OSB] 15:12:48.309 [ERR] ------------------
+[OSB] 15:12:48.320 [WRN]    at OSB.Logs.ResultLogger.LogSwdlResult(String logDirectory, List`1 osbSwdlBaselines, IOsbSwdlConfig swdlConfig, ILogger logger, Int32 typeDesignation) in D:\a\1\s\OSB.Logs\ResultLogger.cs:line 156
+   at OSB.Actions.OsbActions.LocalSwdl(ILocalSwdlOptions options) in D:\a\1\s\OSB.Actions\OsbActions.cs:line 237
+[OSB] 15:12:48.321 [ERR] Installation failed.
+[OSB] 15:12:48.321 [INF] Exit Code: 30 - SW installation issue.
