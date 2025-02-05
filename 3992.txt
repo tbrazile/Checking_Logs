@@ -1,0 +1,1833 @@
+Started by upstream project "HI-Manifests/hix_manifests_gate" build number 5752
+originally caused by:
+ Triggered by Gerrit: https://csp-gerrit.volvocars.biz/c/csp/products/hi_manifests/+/277898
+Checking out git https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests into /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@script/cf911007bd4240395560b74552b26c143901a2c03599e04617bb84796ab93386 to read jenkins/hix_build_apps.jenkinsfile
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@script/cf911007bd4240395560b74552b26c143901a2c03599e04617bb84796ab93386/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests refs/changes/98/277898/7 # timeout=10
+ > git rev-parse origin/FETCH_HEAD^{commit} # timeout=10
+ > git rev-parse FETCH_HEAD^{commit} # timeout=10
+Checking out Revision 28a5139f7a3c8ea6ae6b7fea1f7b35345e5da857 (FETCH_HEAD)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 28a5139f7a3c8ea6ae6b7fea1f7b35345e5da857 # timeout=10
+Commit message: "Bump LVCSC to 11.1.4 in 2310"
+ > git rev-list --no-walk 14c59aa2ad92a504ae9fae2b91c929969e0422e7 # timeout=10
+Loading library vcclib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs # timeout=10
+Found match: refs/heads/master revision 8b2d731d4bf70902ac560dbe0eca4cdedec7de1e
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/702d0668c4d7a931cfb75113c8e410d0845503ecdaec3f0630b1558c2d813350/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 8b2d731d4bf70902ac560dbe0eca4cdedec7de1e (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8b2d731d4bf70902ac560dbe0eca4cdedec7de1e # timeout=10
+Commit message: "Setting up spa2_rel7 release branch"
+Loading library hicilib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ # timeout=10
+Found match: refs/heads/master revision e9dc433f986198ed5452b00660b2c71b24929814
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/d261c62012accc97ea8881a8a352b3abe14b1c9a6c26b1ad609eac011128df3e/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision e9dc433f986198ed5452b00660b2c71b24929814 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e9dc433f986198ed5452b00660b2c71b24929814 # timeout=10
+Commit message: "Update Email list for autosar and polyspace jobs"
+Loading library testlib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/csp/products/hi/test # timeout=10
+Found match: refs/heads/master revision 40c1209032dd50cfcf76c1373fe3ceef67b1fc97
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/dbffb5705647e2b4e3a3c67357772b0a5ec703a4f493f2b05a77f03fd0d076af/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi/test # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi/test
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/hi/test +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 40c1209032dd50cfcf76c1373fe3ceef67b1fc97 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 40c1209032dd50cfcf76c1373fe3ceef67b1fc97 # timeout=10
+Commit message: "Fasttrack CI"
+Loading library refresh-artifactory-token@v1.0.0
+Attempting to resolve v1.0.0 from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git ls-remote -- https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Found match: refs/tags/v1.0.0 revision ba596c79745111dc228904a292e48b0607e2506e
+Resolving tag commit... (remote references may be a lightweight tag or an annotated tag)
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-d492bfbab452f4c3c6fe4bd5b2b50dad/.git # timeout=10
+Setting origin to https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token
+ > git config remote.origin.url https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/tags/v1.0.0^{commit} # timeout=10
+Resolved tag v1.0.0 revision ba596c79745111dc228904a292e48b0607e2506e
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential gerrit.volvocars.net-artcspci
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/hix_build_apps/workspace@libs/87d56b6697976fd915463213d3a2695d39e6a9c650238a1d61daba49eef2c09c/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Fetching with tags
+Fetching upstream changes from https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git fetch --tags --force --progress -- https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ba596c79745111dc228904a292e48b0607e2506e (v1.0.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba596c79745111dc228904a292e48b0607e2506e # timeout=10
+Commit message: "Use named params"
+ > git rev-list --no-walk ba596c79745111dc228904a292e48b0607e2506e # timeout=10
+[Pipeline] Start of Pipeline
+[Pipeline] properties
+[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor on ‘build-stk-app’
+Running on hibuildv8-10 in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3
+[Pipeline] {
+[Pipeline] pwd
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Clearing workspace [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] stage
+[Pipeline] { (Clearing workspace)
+[Pipeline] deleteDir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Download HI manifest repo)
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Cloning HI manifest repo and fetching refs/changes/98/277898/7 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] withCredentials
+Masking supported pattern matches of %GERRIT_API_TOKEN%
+[Pipeline] {
+[Pipeline] sh
++ curl -s -u artcspcm:**** https://csp-gerrit.volvocars.biz/a/changes/277898
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] readJSON
+[Pipeline] isUnix
+[Pipeline] checkout
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Honoring refspec on initial clone
+Cloning repository https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests
+ > git init C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.1.windows.1'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress --depth=1 -- https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests refs/changes/98/277898/7 # timeout=10
+Avoid second fetch
+Checking out Revision 28a5139f7a3c8ea6ae6b7fea1f7b35345e5da857 (FETCH_HEAD)
+Commit message: "Bump LVCSC to 11.1.4 in 2310"
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Setup python venv and get current commit)
+[Pipeline] dir
+Running in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi_manifests # timeout=10
+ > git config --add remote.origin.fetch refs/changes/98/277898/7 # timeout=10
+ > git rev-parse "origin/FETCH_HEAD^{commit}" # timeout=10
+ > git rev-parse "FETCH_HEAD^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 28a5139f7a3c8ea6ae6b7fea1f7b35345e5da857 # timeout=10
+[Pipeline] {
+[Pipeline] pwd
+[Pipeline] sh
++ python -m venv .venv
++ source .venv/Scripts/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/c/Program Files/CMake/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/cmd:/mingw64/bin:/usr/bin:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/Scripts:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages'
+++ PATH='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv/Scripts:/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/c/Program Files/CMake/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/cmd:/mingw64/bin:/usr/bin:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/Scripts:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages'
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
++ pip install -r C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/jenkins/requirements.txt
+Collecting conan==1.62.0
+  Using cached conan-1.62.0.tar.gz (787 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting GitPython==3.1.41
+  Using cached GitPython-3.1.41-py3-none-any.whl (196 kB)
+Collecting python-gerrit-api==3.0.8
+  Using cached python_gerrit_api-3.0.8-py3-none-any.whl (63 kB)
+Collecting requests<3.0.0,>=2.25
+  Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting urllib3<1.27,>=1.26.6
+  Using cached urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+Collecting colorama<0.5.0,>=0.3.3
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting PyYAML<6.1,>=3.11
+  Using cached PyYAML-6.0.2-cp310-cp310-win_amd64.whl (161 kB)
+Collecting patch-ng<1.18,>=1.17.4
+  Using cached patch-ng-1.17.4.tar.gz (17 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting fasteners>=0.14.1
+  Using cached fasteners-0.19-py3-none-any.whl (18 kB)
+Collecting six<=1.16.0,>=1.10.0
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting node-semver==0.6.1
+  Using cached node_semver-0.6.1-py3-none-any.whl (10 kB)
+Collecting pygments<3.0,>=2.0
+  Using cached pygments-2.19.1-py3-none-any.whl (1.2 MB)
+Collecting tqdm<5,>=4.28.1
+  Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting python-dateutil<3,>=2.7.0
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting bottle<0.13,>=0.12.8
+  Using cached bottle-0.12.25-py3-none-any.whl (90 kB)
+Collecting pluginbase>=0.5
+  Using cached pluginbase-1.0.1.tar.gz (43 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting PyJWT<3.0.0,>=2.4.0
+  Using cached PyJWT-2.10.1-py3-none-any.whl (22 kB)
+Collecting Jinja2<4.0.0,>=3.0
+  Using cached jinja2-3.1.5-py3-none-any.whl (134 kB)
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+Collecting smmap<6,>=3.0.1
+  Using cached smmap-5.0.2-py3-none-any.whl (24 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp310-cp310-win_amd64.whl (15 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2025.1.31-py3-none-any.whl (166 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached charset_normalizer-3.4.1-cp310-cp310-win_amd64.whl (102 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.10-py3-none-any.whl (70 kB)
+Installing collected packages: pluginbase, patch-ng, node-semver, bottle, urllib3, smmap, six, PyYAML, PyJWT, pygments, MarkupSafe, idna, fasteners, colorama, charset-normalizer, certifi, tqdm, requests, python-dateutil, Jinja2, gitdb, python-gerrit-api, GitPython, conan
+  DEPRECATION: pluginbase is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for pluginbase: started
+  Running setup.py install for pluginbase: finished with status 'done'
+  DEPRECATION: patch-ng is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for patch-ng: started
+  Running setup.py install for patch-ng: finished with status 'done'
+  DEPRECATION: conan is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for conan: started
+  Running setup.py install for conan: finished with status 'done'
+Successfully installed GitPython-3.1.41 Jinja2-3.1.5 MarkupSafe-3.0.2 PyJWT-2.10.1 PyYAML-6.0.2 bottle-0.12.25 certifi-2025.1.31 charset-normalizer-3.4.1 colorama-0.4.6 conan-1.62.0 fasteners-0.19 gitdb-4.0.12 idna-3.10 node-semver-0.6.1 patch-ng-1.17.4 pluginbase-1.0.1 pygments-2.19.1 python-dateutil-2.9.0.post0 python-gerrit-api-3.0.8 requests-2.32.3 six-1.16.0 smmap-5.0.2 tqdm-4.67.1 urllib3-1.26.20
+
+[notice] A new release of pip is available: 23.0.1 -> 25.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
++ where python
+C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv\Scripts\python.exe
+C:\Users\artcspci\AppData\Local\Microsoft\WindowsApps\python.exe
++ python --version
+Python 3.10.11
+[Pipeline] sh
++ git rev-parse HEAD
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Configuring Conan)
+[Pipeline] withCredentials
+Masking supported pattern matches of %ARA_APIKEY%
+[Pipeline] {
+[Pipeline] dir
+Running in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests
+[Pipeline] {
+[Pipeline] bat
+
+C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests>.venv\Scripts\activate.bat   && jenkins\scripts\setup_conan.bat --token **** --user artcspci 
+Trying to clone repo: ssh://csp-gerrit-ssh.volvocars.net/csp/hi/tools/conan
+Repo cloned!
+Processing conan.conf
+Copying file global.conf to C:\Users\artcspci\.conan\.
+Defining remotes from remotes.json
+Installing settings.yml
+Copying file check_conans_import.py to C:\Users\artcspci\.conan\hooks
+Copying file check_conan_version.py to C:\Users\artcspci\.conan\hooks
+Copying file check_self_copy.py to C:\Users\artcspci\.conan\hooks
+Copying file default to C:\Users\artcspci\.conan\profiles
+Copying file tricore to C:\Users\artcspci\.conan\profiles
+Copying file windows to C:\Users\artcspci\.conan\profiles
+Copying file windows_tricore to C:\Users\artcspci\.conan\profiles
+User of remote 'vcc-conan-develop' is already 'artcspci'
+User of remote 'vcc-conan-lts' is already 'artcspci'
+User of remote 'conan-center' is already 'artcspci'
+User of remote 'conan-community' is already 'artcspci'
+User of remote 'bincrafters' is already 'artcspci'
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withCredentials
+Masking supported pattern matches of %GERRIT_API_TOKEN%
+[Pipeline] {
+[Pipeline] sh
++ curl -s -u artcspcm:**** https://csp-gerrit.volvocars.biz/a/changes/277898
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] readJSON
+[Pipeline] isUnix
+[Pipeline] checkout
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Honoring refspec on initial clone
+Cloning repository https://csp-gerrit.volvocars.biz/a/csp/products/hib
+ > git init C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hib # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hib
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.1.windows.1'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress --depth=1 -- https://csp-gerrit.volvocars.biz/a/csp/products/hib +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 5fd1d7406f2b5d7ad4ce52c94c32005f5a4acfb4 (origin/master)
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hib # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse "origin/master^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5fd1d7406f2b5d7ad4ce52c94c32005f5a4acfb4 # timeout=10
+Commit message: "Add git attributes change from master and renormalize with git add --renormalize to apply attribute changes"
+ > git rev-list --no-walk 5fd1d7406f2b5d7ad4ce52c94c32005f5a4acfb4 # timeout=10
+[Pipeline] stage
+[Pipeline] { (Building hib variant dev)
+[Pipeline] withCredentials
+Masking supported pattern matches of %ARA_APIKEY% or %GIT_PASSWORD%
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Building binaries for hib with variant: dev [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] dir
+Running in C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/build
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Cleaning build directory [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] deleteDir
+[Pipeline] sh
++ source ../.venv/Scripts/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/c/Program Files/CMake/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/cmd:/mingw64/bin:/usr/bin:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/Scripts:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages'
+++ PATH='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv/Scripts:/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/c/Program Files/CMake/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/cmd:/mingw64/bin:/usr/bin:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/Scripts:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages'
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
++ conan remove --locks
+Cache locks removed
+++ '[' n == y ']'
+++ echo ''
++ suffix_value=
++ echo 'Computed suffix_value: '
+Computed suffix_value: 
++ conan install C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/manifests/hib.py -u -pr:b windows -pr:h tricore -o:h production=n -o:h create_a2l=y -o:h build_number=3992 -o:h build_url=https://highgarden.csp-dev.net/jenkins/job/HI-Manifests/job/hix_build_apps/3992/ -o:h git_hash=28a5139f7a3c8ea6ae6b7fea1f7b35345e5da857 -s:h platform_type=dev -o:h suffix_control=n -o:h official_release=n -o:h suffix_value=
+Conan 1 is on a deprecation path, please consider migrating to Conan 2
+Configuration (profile_host):
+[settings]
+arch=tricore
+build_type=Debug
+compiler=hightec-tricore
+compiler.version=v4.9.4.1
+os=Autosar
+platform_type=dev
+[options]
+build_number=3992
+build_url=https://highgarden.csp-dev.net/jenkins/job/HI-Manifests/job/hix_build_apps/3992/
+create_a2l=y
+git_hash=28a5139f7a3c8ea6ae6b7fea1f7b35345e5da857
+official_release=n
+production=n
+suffix_control=n
+suffix_value=
+[build_requires]
+*: cmake/3.27.9
+[env]
+[conf]
+
+Configuration (profile_build):
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Debug
+os=Windows
+os_build=Windows
+[options]
+[build_requires]
+*: cmake/3.27.9
+[env]
+[conf]
+
+hib.py (appHIB/1.0.0): The following packages will use template code:
+hib.py (appHIB/1.0.0):   CarconfigMgr
+hib.py (appHIB/1.0.0):   VDACapabilityHIBSPA2
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Not found in local cache, looking in remotes...
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Trying with 'vcc-conan-lts'...
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Trying with 'vcc-conan-develop'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Downloaded recipe revision e9da76ea05f90111d6a9b3c1962702d962f10d29
+Version ranges solved
+    baseline_for_python_dev/*@VCC-tools/stable versions found in 'vcc-conan-lts' remote
+    Version range '~5.0' required by 'py_require' resolved to 'baseline_for_python_dev/5.0.2@VCC-tools/stable' in remote 'vcc-conan-lts'
+
+hib.py (appHIB/1.0.0): Installing package
+Requirements
+    LVCSC_HIB/11.1.4@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    MEEHIBSPA2/2.1.2@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    SafeTimeHIBSPA2/0.1.3@VCC-modules/stable from 'vcc-conan-develop' - Cache
+    ShutdownManagerHIB-SPA2/3.4.2@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    TC3xx_SW_MCAL_FEE_Initial_Data/1.0.4+v1.0@tools/stable from 'vcc-conan-lts' - Cache
+    VMCHIB/8.0.0@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    VehicleModesProviderHIB-SPA2/2.1.1@VCC-modules/stable from 'vcc-conan-develop' - Cache
+    ad_adas_hib/2.4.8-dev@VCC-modules/stable from 'vcc-conan-develop' - Cache
+    direction-indicator-auxiliary-handler/1.2.2@VCC-modules/stable from 'vcc-conan-lts' - Cache
+    hib_hsm/0.0.3_hsm_46cfd688@hi_sw/dev from 'vcc-conan-develop' - Cache
+    hib_pbl/0.0.1_pbl_46cfd688@hi_sw/dev from 'vcc-conan-develop' - Cache
+    hib_sbl/0.0.1_sbl_46cfd688@hi_sw/dev from 'vcc-conan-develop' - Cache
+    hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev from 'vcc-conan-develop' - Downloaded
+    hib_test_apps/5.5.1@VCC-modules/stable from 'vcc-conan-develop' - Cache
+    tvdc_gateway_hib/0.2.1@VCC-modules/stable from 'vcc-conan-lts' - Cache
+Python requires
+    hi_delivery_base/1.0.62@VCC-tools/stable
+    baseline_for_python_dev/5.0.2@VCC-tools/stable
+Packages
+    LVCSC_HIB/11.1.4@VCC-modules/stable:b56f7177e641253bbbdf5df1e5a38d21d27677fb - Cache
+    MEEHIBSPA2/2.1.2@VCC-modules/stable:b56f7177e641253bbbdf5df1e5a38d21d27677fb - Cache
+    SafeTimeHIBSPA2/0.1.3@VCC-modules/stable:6a5e95985f2fe9762703fa4fa05da1c37431d56e - Cache
+    ShutdownManagerHIB-SPA2/3.4.2@VCC-modules/stable:2aa7f260156548d9aea622d4f270ebd14de4c327 - Cache
+    TC3xx_SW_MCAL_FEE_Initial_Data/1.0.4+v1.0@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    VMCHIB/8.0.0@VCC-modules/stable:6a5e95985f2fe9762703fa4fa05da1c37431d56e - Cache
+    VehicleModesProviderHIB-SPA2/2.1.1@VCC-modules/stable:db35cf4bd0f0d26c41dba016a56d83d982d79807 - Cache
+    ad_adas_hib/2.4.8-dev@VCC-modules/stable:798447564163305c98c2aef56b7a3449f582f36b - Cache
+    direction-indicator-auxiliary-handler/1.2.2@VCC-modules/stable:2aa7f260156548d9aea622d4f270ebd14de4c327 - Cache
+    hib_hsm/0.0.3_hsm_46cfd688@hi_sw/dev:c747d8ec64140fd17832a66ae46dbfd11111296e - Cache
+    hib_pbl/0.0.1_pbl_46cfd688@hi_sw/dev:c747d8ec64140fd17832a66ae46dbfd11111296e - Cache
+    hib_sbl/0.0.1_sbl_46cfd688@hi_sw/dev:c747d8ec64140fd17832a66ae46dbfd11111296e - Cache
+    hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev:6b38225de40fa9294eca185f56243edce902aeea - Download
+    hib_test_apps/5.5.1@VCC-modules/stable:6a5e95985f2fe9762703fa4fa05da1c37431d56e - Cache
+    tvdc_gateway_hib/0.2.1@VCC-modules/stable:b56f7177e641253bbbdf5df1e5a38d21d27677fb - Cache
+Build requirements
+    a2l_tools/1.0.1+1.0p15@tools/stable from 'vcc-conan-lts' - Cache
+    cmake/3.27.9 from 'conan-center' - Cache
+    hexview/1.0.1+v1.12.08@tools/stable from 'vcc-conan-lts' - Cache
+    hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable from 'vcc-conan-lts' - Cache
+    hi_resign/1.0.0+v0.0.1@tools/stable from 'vcc-conan-lts' - Cache
+    hightec_tricore/1.0.4+v4.9.4.1@tools/stable from 'vcc-conan-lts' - Cache
+    vecs/1.8.0@VCC-tools/stable from 'vcc-conan-lts' - Cache
+Build requirements packages
+    a2l_tools/1.0.1+1.0p15@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    cmake/3.27.9:ca33edce272a279b24f87dc0d4cf5bbdcffbc187 - Cache
+    hexview/1.0.1+v1.12.08@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    hi_resign/1.0.0+v0.0.1@tools/stable:3ef4f8a4f7398eaa0f1521ada5848340d86c71ef - Cache
+    hightec_tricore/1.0.4+v4.9.4.1@tools/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    vecs/1.8.0@VCC-tools/stable:60b04a80ac4dd5c23f1acffacc679e9902e636e5 - Cache
+
+Cross-build from 'Windows:x86_64' to 'None:tricore'
+Installing (downloading, building) binaries...
+Downloading binary packages in 8 parallel threads
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Retrieving package 6b38225de40fa9294eca185f56243edce902aeea from remote 'vcc-conan-develop' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Package installed 6b38225de40fa9294eca185f56243edce902aeea
+hib_spa2_update_platform/2310.0.1_e9da76ea@hi_sw/dev: Downloaded package revision 898fa1aa51ab850bd317835eb51dfdc4
+LVCSC_HIB/11.1.4@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\8c0387\1
+No YAML folder found at: C:\.conan\8c0387\1\yaml
+MEEHIBSPA2/2.1.2@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\552cb8\1
+Processing YAML file: C:\.conan\552cb8\1\yaml\MEEHIB.yaml
+Found all SoftwareComponents in MEEHIBSPA2: {'MEEHIBSPA2': ['ConversionControl', 'ElectricalHealth']}
+SafeTimeHIBSPA2/0.1.3@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\659783\1
+Processing YAML file: C:\.conan\659783\1\yaml\SafeTimeHIB.yaml
+Found all SoftwareComponents in SafeTimeHIBSPA2: {'SafeTimeHIBSPA2': ['SafeTimeHIBSPA2']}
+ShutdownManagerHIB-SPA2/3.4.2@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\f49dc8\1
+Processing YAML file: C:\.conan\f49dc8\1\yaml\ShutdownManagerHIBSPA2.yaml
+Found all SoftwareComponents in ShutdownManagerHIB-SPA2: {'ShutdownManagerHIB-SPA2': ['ShutdownManagerHIBSPA2']}
+TC3xx_SW_MCAL_FEE_Initial_Data/1.0.4+v1.0@tools/stable: Already installed!
+VMCHIB/8.0.0@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\8656dc\1
+Processing YAML file: C:\.conan\8656dc\1\yaml\VMCHIB.yaml
+Found all SoftwareComponents in VMCHIB: {'VMCHIB': ['STABHIB', 'VehicleMotionStateHI', 'LatCtrlArb']}
+VehicleModesProviderHIB-SPA2/2.1.1@VCC-modules/stable: Already installed!
+source_folder location: C:\.conan\90af49\1\yaml
+Processing YAML file: C:\.conan\90af49\1\yaml\VehicleModesHIBSPA2.yaml
+components_list:{'VehicleModesHIBSPA2'}
+Found all SoftwareComponents in VehicleModesProviderHIB-SPA2: {'VehicleModesProviderHIB-SPA2': ['VehicleModesHIBSPA2']}
+a2l_tools/1.0.1+1.0p15@tools/stable: Already installed!
+ad_adas_hib/2.4.8-dev@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\1ee4c4\1
+Processing YAML file: C:\.conan\1ee4c4\1\yaml\ad_adas_hib_swc_generated.yaml
+Found all SoftwareComponents in ad_adas_hib: {'ad_adas_hib': ['ZenseactHIB', 'ZenseactHIB_ASILD', 'ZenseactHIB_ASILC']}
+cmake/3.27.9: Already installed!
+cmake/3.27.9: Appending PATH environment variable: C:\Users\artcspci\.conan\data\cmake\3.27.9\_\_\package\ca33edce272a279b24f87dc0d4cf5bbdcffbc187\bin
+direction-indicator-auxiliary-handler/1.2.2@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\3b8d5f\1
+Processing YAML file: C:\.conan\3b8d5f\1\yaml\DirectionIndicatorAuxHIBSPA2.yaml
+Found all SoftwareComponents in direction-indicator-auxiliary-handler: {'direction-indicator-auxiliary-handler': ['DirectionIndicationAuxiliaryHandlingSPA2']}
+hexview/1.0.1+v1.12.08@tools/stable: Already installed!
+hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable: Already installed!
+hi_resign/1.0.0+v0.0.1@tools/stable: Already installed!
+hi_resign/1.0.0+v0.0.1@tools/stable: Build folder during package_info: C:\.conan\fffcde\1
+hib_hsm/0.0.3_hsm_46cfd688@hi_sw/dev: Already installed!
+hib_pbl/0.0.1_pbl_46cfd688@hi_sw/dev: Already installed!
+hib_sbl/0.0.1_sbl_46cfd688@hi_sw/dev: Already installed!
+hib_test_apps/5.5.1@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\a22b39\1
+Processing YAML file: C:\.conan\a22b39\1\yaml\SWC_TstNodesHIB_MAIN_5.yaml
+Found all SoftwareComponents in hib_test_apps: {'hib_test_apps': ['TstNodesHIB_SWC']}
+hightec_tricore/1.0.4+v4.9.4.1@tools/stable: Already installed!
+tvdc_gateway_hib/0.2.1@VCC-modules/stable: Already installed!
+Package folder location: C:\.conan\b3bb0b\1
+Processing YAML file: C:\.conan\b3bb0b\1\yaml\Gateway_swc_gen_1_9.yaml
+Found all SoftwareComponents in tvdc_gateway_hib: {'tvdc_gateway_hib': ['GatewayHib']}
+vecs/1.8.0@VCC-tools/stable: Already installed!
+hib.py (appHIB/1.0.0): Applying build-requirement: cmake/3.27.9
+hib.py (appHIB/1.0.0): Applying build-requirement: vecs/1.8.0@VCC-tools/stable
+hib.py (appHIB/1.0.0): Applying build-requirement: hexview/1.0.1+v1.12.08@tools/stable
+hib.py (appHIB/1.0.0): Applying build-requirement: a2l_tools/1.0.1+1.0p15@tools/stable
+hib.py (appHIB/1.0.0): Applying build-requirement: hi_python/1.0.0+v3.7.6.embed.amd64.0.4.3@python/stable
+hib.py (appHIB/1.0.0): Applying build-requirement: hightec_tricore/1.0.4+v4.9.4.1@tools/stable
+hib.py (appHIB/1.0.0): Applying build-requirement: hi_resign/1.0.0+v0.0.1@tools/stable
+hib.py (appHIB/1.0.0): Generator txt created conanbuildinfo.txt
+hib.py (appHIB/1.0.0): Calling generate()
+hib.py (appHIB/1.0.0): Copied 1 '.yml' file: resign_config.yml
+hib.py (appHIB/1.0.0): Copied 1 '.pem' file: S69_HIB_SPR-PRIVATE.pem
+hib.py (appHIB/1.0.0): Copied 1 '.ld' file: vLinkGen_Template_vLinkVariantDev.ld
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: template.txt
+hib.py (appHIB/1.0.0): Copied 1 '.txt' file: CMakeLists.txt
+hib.py (appHIB/1.0.0): Copied 1 '.c' file: null.c
+hib.py (appHIB/1.0.0): Copied 1 '.vbf' file: 32453631WZY.vbf
+hib.py (appHIB/1.0.0): Copied 1 '.vbf' file: 32453658WZY.vbf
+hib.py (appHIB/1.0.0): Copied 1 '.vbf' file: 32453649WZY.vbf
+hib.py (appHIB/1.0.0): Copied 1 '.hex' file: sblHIB.hex
+hib.py (appHIB/1.0.0): Copied 6 '.hex' files
+hib.py (appHIB/1.0.0): Copied 3 '.hex' files: hsmHIB.hex, hsmHIB_valid_pattern.hex, hsmUpdHIB.hex
+hib.py (appHIB/1.0.0): Copied 3 '.hex' files: hsmHIB.hex, hsmHIB_valid_pattern.hex, hsmUpdHIB.hex
+hib.py (appHIB/1.0.0): Copied 3 '.hex' files: hsmHIB.hex, hsmHIB_valid_pattern.hex, hsmUpdHIB.hex
+hib.py (appHIB/1.0.0): WARN: No PBL map file available in the pbl component package.
+hib.py (appHIB/1.0.0): Copied 1 '.ld' file: vLinkGen_Template_fbl.ld
+hib.py (appHIB/1.0.0): Copied 1 '.ld' file: vLinkGen_Template.ld
+hib.py (appHIB/1.0.0): Copied 1 '.bat' file: CreateHsmUpdContainerAndHeader.bat
+hib.py (appHIB/1.0.0): Copied 1 '.pem' file: S75_HIB_HSM_SPR-PRIVATE.pem
+hib.py (appHIB/1.0.0): Copied 1 '.hex' file: TC3xx_SW_MCAL_FEE_Initial_Data.hex
+hib.py (appHIB/1.0.0): Using the following platform paths:
+hib.py (appHIB/1.0.0):   Linker file: C:/.conan/2b8294/1/misc/linker/vLinkGen_Template_vLinkVariantDev.ld
+hib.py (appHIB/1.0.0):   Postbuild file: C:/.conan/2b8294/1/misc/postbuild.bat
+hib.py (appHIB/1.0.0): Preset 'debug' added to CMakePresets.json. Invoke it manually using 'cmake --preset debug'
+hib.py (appHIB/1.0.0): If your CMake version is not compatible with CMakePresets (<3.19) call cmake like: 'cmake <path> -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE=C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build\conan_toolchain.cmake -DCMAKE_MAKE_PROGRAM=C:/.conan/0b5e69/1/bin/make.exe -DPLATFORM_COMPILER_FLAGS=C:/.conan/2b8294/1/cmake/SetCompilerFlags.cmake -DLINKER_FILE=C:/.conan/2b8294/1/misc/linker/vLinkGen_Template_vLinkVariantDev.ld -DHEX_POSTPROCESS_SCRIPT=C:/.conan/2b8294/1/misc/postbuild.bat -DCAL_CFG_GEN_SCRIPT=C:/.conan/2b8294/1/misc/generate_cal_config.py -DHIX=HIB -DMAP_FILE_CHECK_SCRIPT=C:/.conan/2b8294/1/misc\hix_map_file_check.py -DMASTER_A2L_TEMPLATE_FILE=C:/.conan/2b8294/1/misc/a2l/Master_Template.a2l -DSIGN_OPTS=C:\.conan\2b8294\1\misc\settings\hexview\signature_options.ini -DSIGN_OPTS_CAL=C:\.conan\2b8294\1\misc\settings\hexview\signature_options_Cal.ini -DSIGN_KEY=C:\.conan\2b8294\1\misc\settings\hexview\signature_key.txt -DVECS_APP_OPTIONS=C:\.conan\2b8294\1\misc\settings\vecs\vecs_options.txt -DVECS_APP_CAL_OPTIONS=C:\.conan\2b8294\1\misc\settings\vecs\vecs_options_cal.txt -DRESIGN_CONFIG=C:\.conan\2b8294\1\misc\settings\re-sign\resign_config.yml -DRESIGN_KEY_PATH=C:/.conan/2b8294/1/misc/settings/re-sign/ -DVECS_TOOL=C:\Users\artcspci\.conan\data\vecs\1.8.0\VCC-tools\stable\package\60b04a80ac4dd5c23f1acffacc679e9902e636e5\bin\vecs.exe -DOBJDUMP_TOOL=C:\.conan\0b5e69\1\bin\tricore-objdump.exe -DVECS_DIR=C:/.conan/2b8294/1/misc/settings/vecs -DVCC_A2L_CREATOR=C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lCreator -DVCC_A2L_MERGE=C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lMerge -DVCC_A2L_ADDRESS_UPDATE=C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lAddressUpdate -DVBF_TYPE=dev -DVARIANT_NAME=DEV_VARIANT -DPACKAGE_NAME=appHIB -DPLATFORM_NAME=hib_spa2_update_platform -DPRODUCTION=n -DSTRIP_SYMBOLS=n -DA2L_CREATE_ENABLE=y -DA2L_MERGE_ENABLE=y -DA2L_ADDRESS_UPDATE_ENABLE=y -DRESIGN_TOOL=C:\.conan\fffcde\1\hi_resign\hsm_resign.py -DRESIGN_VS_TOOL=C:\.conan\fffcde\1\hi_resign\vs.py -DPYTHON_CMD=C:\.conan\37f60a\1\python.exe -DSRC_LIST=C:/.conan/2b8294/1/misc/templates/CarconfigMgr;C:/.conan/a22b39/1/src/;C:/.conan/a22b39/1/inc/;C:/.conan/f49dc8/1/src/;C:/.conan/f49dc8/1/inc/;C:/.conan/90af49/1/src/;C:/.conan/90af49/1/inc/;C:/.conan/8c0387/1/src/;C:/.conan/8c0387/1/inc/;C:/.conan/552cb8/1/src/;C:/.conan/552cb8/1/inc/;C:/.conan/659783/1/src/;C:/.conan/659783/1/inc/;C:/.conan/3b8d5f/1/src/;C:/.conan/3b8d5f/1/inc/;C:/.conan/8656dc/1/src/;C:/.conan/8656dc/1/inc/;C:/.conan/b3bb0b/1/src/;C:/.conan/2b8294/1/misc/templates/VDACapabilityHIBSPA2;C:/.conan/2b8294/1/inc/bsw/_Common/Implementation/;C:/.conan/2b8294/1/inc/bsw/Os/Implementation/;C:/.conan/2b8294/1/inc/app/Appl/Common/;C:/.conan/2b8294/1/inc/app/Appl/MemMap/;C:/.conan/2b8294/1/inc/GenData/;C:/.conan/2b8294/1/inc/GenData/Components/;C:/.conan/2b8294/1/inc/GenData/inc/;C:/.conan/2b8294/1/inc/app/common/components/; -DA2L_FILES=C:/.conan/8c0387/1/a2l/LVCHIB.a2l; -DTEMPLATE_SRC_FILES=C:/.conan/2b8294/1/misc/templates/CarconfigMgr/CarconfigMgr.c;C:/.conan/2b8294/1/misc/templates/VDACapabilityHIBSPA2/VDACapabilityHIBSPA2.c; -DCOMPONENT_LIB_FILES=C:/.conan/1ee4c4/1/lib/libzen_hib_static_lib.a; -DCAL_YAML_FILE_LIST=C:/.conan/8c0387/1/calibration/calibration_variants.yaml; -DSRC_COMPONENTS=hib_test_apps;ShutdownManagerHIB-SPA2;VehicleModesProviderHIB-SPA2;LVCSC_HIB;MEEHIBSPA2;SafeTimeHIBSPA2;direction-indicator-auxiliary-handler;VMCHIB;tvdc_gateway_hib;ad_adas_hib; -DCOMPONENT_SRC_LIST=tvdc_gateway_hib;SafeTimeHIBSPA2;ShutdownManagerHIB-SPA2;LVCSC_HIB;direction-indicator-auxiliary-handler;VMCHIB;MEEHIBSPA2;hib_test_apps;VehicleModesProviderHIB-SPA2 -DCMAKE_SH=CMAKE_SH-NOTFOUND -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Debug'
+hib.py (appHIB/1.0.0): Aggregating env generators
+hib.py (appHIB/1.0.0): Generated conaninfo.txt
+hib.py (appHIB/1.0.0): Generated graphinfo
++ conan source C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/manifests/hib.py
+Using lockfile: 'C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build/conan.lock'
+Using cached profile from lockfile
+hib.py (appHIB/1.0.0): The following packages will use template code:
+hib.py (appHIB/1.0.0):   CarconfigMgr
+hib.py (appHIB/1.0.0):   VDACapabilityHIBSPA2
+hib.py (appHIB/1.0.0): Configuring sources in C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build
+hib.py (appHIB/1.0.0): Executing exports to: C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build
+[Pipeline] sh
++ source ../.venv/Scripts/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/c/Program Files/CMake/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/cmd:/mingw64/bin:/usr/bin:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/Scripts:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages'
+++ PATH='C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\.venv/Scripts:/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files/Eclipse Adoptium/jdk-17.0.4.101-hotspot/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/Program Files/dotnet:/c/Program Files (x86)/dotnet:/c/Program Files/CMake/bin:/c/Users/artcspci/AppData/Local/Programs/Python/Python310:/cmd:/mingw64/bin:/usr/bin:/c/Users/artcspci/AppData/Local/Microsoft/WindowsApps:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/Scripts:/c/Users/artcspci/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages'
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/sh -o -n '' ']'
+++ hash -r
++ conan build C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/manifests/hib.py
+Conan 1 is on a deprecation path, please consider migrating to Conan 2
+Using lockfile: 'C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build/conan.lock'
+Using cached profile from lockfile
+hib.py (appHIB/1.0.0): The following packages will use template code:
+hib.py (appHIB/1.0.0):   CarconfigMgr
+hib.py (appHIB/1.0.0):   VDACapabilityHIBSPA2
+hib.py (appHIB/1.0.0): Calling build()
+hib.py (appHIB/1.0.0): CMake command: cmake -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE="C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/build/conan_toolchain.cmake" -DCMAKE_INSTALL_PREFIX="C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/build/package" -DCMAKE_MAKE_PROGRAM="C:/.conan/0b5e69/1/bin/make.exe" -DPLATFORM_COMPILER_FLAGS="C:/.conan/2b8294/1/cmake/SetCompilerFlags.cmake" -DLINKER_FILE="C:/.conan/2b8294/1/misc/linker/vLinkGen_Template_vLinkVariantDev.ld" -DHEX_POSTPROCESS_SCRIPT="C:/.conan/2b8294/1/misc/postbuild.bat" -DCAL_CFG_GEN_SCRIPT="C:/.conan/2b8294/1/misc/generate_cal_config.py" -DHIX="HIB" -DMAP_FILE_CHECK_SCRIPT="C:/.conan/2b8294/1/misc\hix_map_file_check.py" -DMASTER_A2L_TEMPLATE_FILE="C:/.conan/2b8294/1/misc/a2l/Master_Template.a2l" -DSIGN_OPTS="C:\.conan\2b8294\1\misc\settings\hexview\signature_options.ini" -DSIGN_OPTS_CAL="C:\.conan\2b8294\1\misc\settings\hexview\signature_options_Cal.ini" -DSIGN_KEY="C:\.conan\2b8294\1\misc\settings\hexview\signature_key.txt" -DVECS_APP_OPTIONS="C:\.conan\2b8294\1\misc\settings\vecs\vecs_options.txt" -DVECS_APP_CAL_OPTIONS="C:\.conan\2b8294\1\misc\settings\vecs\vecs_options_cal.txt" -DRESIGN_CONFIG="C:\.conan\2b8294\1\misc\settings\re-sign\resign_config.yml" -DRESIGN_KEY_PATH="C:/.conan/2b8294/1/misc/settings/re-sign/" -DVECS_TOOL="C:\Users\artcspci\.conan\data\vecs\1.8.0\VCC-tools\stable\package\60b04a80ac4dd5c23f1acffacc679e9902e636e5\bin\vecs.exe" -DOBJDUMP_TOOL="C:\.conan\0b5e69\1\bin\tricore-objdump.exe" -DVECS_DIR="C:/.conan/2b8294/1/misc/settings/vecs" -DVCC_A2L_CREATOR="C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lCreator" -DVCC_A2L_MERGE="C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lMerge" -DVCC_A2L_ADDRESS_UPDATE="C:/Users/artcspci/.conan/data/a2l_tools/1.0.1+1.0p15/tools/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/VccA2lAddressUpdate" -DVBF_TYPE="dev" -DVARIANT_NAME="DEV_VARIANT" -DPACKAGE_NAME="appHIB" -DPLATFORM_NAME="hib_spa2_update_platform" -DPRODUCTION="n" -DSTRIP_SYMBOLS="n" -DA2L_CREATE_ENABLE="y" -DA2L_MERGE_ENABLE="y" -DA2L_ADDRESS_UPDATE_ENABLE="y" -DRESIGN_TOOL="C:\.conan\fffcde\1\hi_resign\hsm_resign.py" -DRESIGN_VS_TOOL="C:\.conan\fffcde\1\hi_resign\vs.py" -DPYTHON_CMD="C:\.conan\37f60a\1\python.exe" -DSRC_LIST="C:/.conan/2b8294/1/misc/templates/CarconfigMgr;C:/.conan/a22b39/1/src/;C:/.conan/a22b39/1/inc/;C:/.conan/f49dc8/1/src/;C:/.conan/f49dc8/1/inc/;C:/.conan/90af49/1/src/;C:/.conan/90af49/1/inc/;C:/.conan/8c0387/1/src/;C:/.conan/8c0387/1/inc/;C:/.conan/552cb8/1/src/;C:/.conan/552cb8/1/inc/;C:/.conan/659783/1/src/;C:/.conan/659783/1/inc/;C:/.conan/3b8d5f/1/src/;C:/.conan/3b8d5f/1/inc/;C:/.conan/8656dc/1/src/;C:/.conan/8656dc/1/inc/;C:/.conan/b3bb0b/1/src/;C:/.conan/2b8294/1/misc/templates/VDACapabilityHIBSPA2;C:/.conan/2b8294/1/inc/bsw/_Common/Implementation/;C:/.conan/2b8294/1/inc/bsw/Os/Implementation/;C:/.conan/2b8294/1/inc/app/Appl/Common/;C:/.conan/2b8294/1/inc/app/Appl/MemMap/;C:/.conan/2b8294/1/inc/GenData/;C:/.conan/2b8294/1/inc/GenData/Components/;C:/.conan/2b8294/1/inc/GenData/inc/;C:/.conan/2b8294/1/inc/app/common/components/;" -DA2L_FILES="C:/.conan/8c0387/1/a2l/LVCHIB.a2l;" -DTEMPLATE_SRC_FILES="C:/.conan/2b8294/1/misc/templates/CarconfigMgr/CarconfigMgr.c;C:/.conan/2b8294/1/misc/templates/VDACapabilityHIBSPA2/VDACapabilityHIBSPA2.c;" -DCOMPONENT_LIB_FILES="C:/.conan/1ee4c4/1/lib/libzen_hib_static_lib.a;" -DCAL_YAML_FILE_LIST="C:/.conan/8c0387/1/calibration/calibration_variants.yaml;" -DSRC_COMPONENTS="hib_test_apps;ShutdownManagerHIB-SPA2;VehicleModesProviderHIB-SPA2;LVCSC_HIB;MEEHIBSPA2;SafeTimeHIBSPA2;direction-indicator-auxiliary-handler;VMCHIB;tvdc_gateway_hib;ad_adas_hib;" -DCOMPONENT_SRC_LIST="tvdc_gateway_hib;SafeTimeHIBSPA2;ShutdownManagerHIB-SPA2;LVCSC_HIB;direction-indicator-auxiliary-handler;VMCHIB;MEEHIBSPA2;hib_test_apps;VehicleModesProviderHIB-SPA2" -DCMAKE_SH="CMAKE_SH-NOTFOUND" -DCMAKE_POLICY_DEFAULT_CMP0091="NEW" -DCMAKE_BUILD_TYPE="Debug" "C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build"
+-- Using Conan toolchain: C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/build/conan_toolchain.cmake
+-- The C compiler identification is GNU 4.9.4
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/.conan/0b5e69/1/bin/tricore-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Conan: Target declared 'hib_spa2_update_platform::hib_spa2_update_platform'
+-- Configuring component: tvdc_gateway_hib
+-- Configuring component: SafeTimeHIBSPA2
+-- Configuring component: ShutdownManagerHIB-SPA2
+-- Configuring component: LVCSC_HIB
+-- Configuring component: direction-indicator-auxiliary-handler
+-- Configuring component: VMCHIB
+-- Configuring component: MEEHIBSPA2
+-- Configuring component: hib_test_apps
+-- Configuring component: VehicleModesProviderHIB-SPA2
+-- Configuring done (10.8s)
+-- Generating done (0.7s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_POLICY_DEFAULT_CMP0091
+    CMAKE_SH
+    SRC_COMPONENTS
+
+
+-- Build files have been written to: C:/Jenkins/Highgarden/workspace/HI-Manifests/hix_build_apps@3/csp/products/hi_manifests/build
+hib.py (appHIB/1.0.0): CMake command: cmake --build "C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build" -- -j4
+[  2%] Building C object MEEHIBSPA2/CMakeFiles/MEEHIBSPA2_dev.dir/C_/.conan/552cb8/1/src/ConversionControl.c.obj
+[  2%] Building C object tvdc_gateway_hib/CMakeFiles/tvdc_gateway_hib_dev.dir/C_/.conan/b3bb0b/1/src/GatewayHib.c.obj
+[  3%] Building C object SafeTimeHIBSPA2/CMakeFiles/SafeTimeHIBSPA2_dev.dir/C_/.conan/659783/1/src/SafeTimeHIB.c.obj
+[  3%] Building C object ShutdownManagerHIB-SPA2/CMakeFiles/ShutdownManagerHIB-SPA2_dev.dir/C_/.conan/f49dc8/1/src/ShutdownManagerHIBSPA2.c.obj
+[  4%] Linking C static library libtvdc_gateway_hib_dev.a
+[  5%] Building C object MEEHIBSPA2/CMakeFiles/MEEHIBSPA2_dev.dir/C_/.conan/552cb8/1/src/ElectricalHealth.c.obj
+[  6%] Building C object SafeTimeHIBSPA2/CMakeFiles/SafeTimeHIBSPA2_dev.dir/C_/.conan/659783/1/src/offsetstore.c.obj
+[  7%] Linking C static library libShutdownManagerHIB-SPA2_dev.a
+[  7%] Built target tvdc_gateway_hib_dev
+[  7%] Building C object SafeTimeHIBSPA2/CMakeFiles/SafeTimeHIBSPA2_dev.dir/C_/.conan/659783/1/src/pingponghandler.c.obj
+[  7%] Built target ShutdownManagerHIB-SPA2_dev
+[  8%] Building C object SafeTimeHIBSPA2/CMakeFiles/SafeTimeHIBSPA2_dev.dir/C_/.conan/659783/1/src/vtmonitor.c.obj
+[  9%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/STABHIB.c.obj
+[  9%] Linking C static library libMEEHIBSPA2_dev.a
+[  9%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/CarCfg.c.obj
+[ 10%] Building C object SafeTimeHIBSPA2/CMakeFiles/SafeTimeHIBSPA2_dev.dir/C_/.conan/659783/1/src/vtprovider.c.obj
+[ 10%] Built target MEEHIBSPA2_dev
+[ 10%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/accel_bias_fltr.c.obj
+[ 11%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/LVCSC.c.obj
+[ 12%] Linking C static library libSafeTimeHIBSPA2_dev.a
+[ 13%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/accel_fltr.c.obj
+[ 13%] Building C object direction-indicator-auxiliary-handler/CMakeFiles/direction-indicator-auxiliary-handler_dev.dir/C_/.conan/3b8d5f/1/src/DIAuxHandlingHIB.c.obj
+[ 13%] Built target SafeTimeHIBSPA2_dev
+[ 14%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/Tab1DIntpI1T0.c.obj
+[ 15%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/accel_from_whl.c.obj
+[ 16%] Linking C static library libdirection-indicator-auxiliary-handler_dev.a
+[ 17%] Building C object hib_test_apps/CMakeFiles/hib_test_apps_dev.dir/C_/.conan/a22b39/1/src/TstNodesHIB_SWC.c.obj
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'LVC_MainFunction':
+C:\.conan\8c0387\1\src\LVCSC.c:2536:5: warning: implicit declaration of function 'Write_PVCdpHIB_ReqToDrv_ReqToDrv' [-Wimplicit-function-declaration]
+     Write_PVCdpHIB_ReqToDrv_ReqToDrv();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:2578:5: warning: implicit declaration of function 'Write_PVCdpHIB_MonrDiagnc1_MonrDiagnc1' [-Wimplicit-function-declaration]
+     Write_PVCdpHIB_MonrDiagnc1_MonrDiagnc1();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:2579:5: warning: implicit declaration of function 'Write_PVCdpHIB_MonrDiagnc2_MonrDiagnc2' [-Wimplicit-function-declaration]
+     Write_PVCdpHIB_MonrDiagnc2_MonrDiagnc2();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:2580:5: warning: implicit declaration of function 'Write_PVCdpHIB_MonrDiagnc3_MonrDiagnc3' [-Wimplicit-function-declaration]
+     Write_PVCdpHIB_MonrDiagnc3_MonrDiagnc3();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:2581:5: warning: implicit declaration of function 'Write_PVCdpHIB_MonrDiagnc4_MonrDiagnc4' [-Wimplicit-function-declaration]
+     Write_PVCdpHIB_MonrDiagnc4_MonrDiagnc4();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_BCMAdp2HIB_EpbBtnCtrlSt_EpbBtnCtrlSt':
+C:\.conan\8c0387\1\src\LVCSC.c:2941:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_EpbBtnCtrlSt_EpbBtnCtrlSt(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_LPCdpEthHIb_FltBrkLiIndcn_FltBrkLiIndcn':
+C:\.conan\8c0387\1\src\LVCSC.c:3210:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_FltBrkLiIndcn1_FltBrkLiIndcn1(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_MEE_VehMtnCtrlLimPeakPower_VehMtnCtrlLimPeakPower':
+C:\.conan\8c0387\1\src\LVCSC.c:3225:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_VehMtnCtrlLimPeakPower_VehMtnCtrlLimPeakPower(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_MEE_InhbNewDrvCycLoU_InhbNewDrvCycLoU':
+C:\.conan\8c0387\1\src\LVCSC.c:3240:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_InhbNewDrvCycLoU_InhbNewDrvCycLoU(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_AccrPedlZeroOffs_AccrPedlZeroOffs':
+C:\.conan\8c0387\1\src\LVCSC.c:3254:19: warning: variable 'e2eSts' set but not used [-Wunused-but-set-variable]
+     unsigned char e2eSts = 0;
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_AutnmsDesDirReq_AutnmsDesDirReq':
+C:\.conan\8c0387\1\src\LVCSC.c:3272:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_AutnmsDesDirReq_AutnmsDesDirReq(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_TrlrPrsntStsHpa_TrlrPrsntStsHpa':
+C:\.conan\8c0387\1\src\LVCSC.c:3287:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_TrlrPrsntStsHpa_TrlrPrsntStsHpa(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_BrkLiOnHld_BrkLiOnHld':
+C:\.conan\8c0387\1\src\LVCSC.c:3301:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_BrkLiOnHld_BrkLiOnHld(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_BrkTqReq1_BrkTqReq1':
+C:\.conan\8c0387\1\src\LVCSC.c:3316:19: warning: variable 'e2eSts' set but not used [-Wunused-but-set-variable]
+     unsigned char e2eSts = 0;
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_BrkTqReqRaw_BrkTqReqRaw':
+C:\.conan\8c0387\1\src\LVCSC.c:3335:19: warning: variable 'e2eSts' set but not used [-Wunused-but-set-variable]
+     unsigned char e2eSts = 0;
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_DoorDrvrStsEth_DoorDrvrStsEth':
+C:\.conan\8c0387\1\src\LVCSC.c:3369:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_DoorDrvrStsEth_DoorDrvrStsEth(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_EpbDrvOffActv_EpbDrvOffActv':
+C:\.conan\8c0387\1\src\LVCSC.c:3400:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_EpbDrvOffActv_EpbDrvOffActv(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_PtTqAtWhlFrntActEth_PtTqAtWhlFrntActEth':
+C:\.conan\8c0387\1\src\LVCSC.c:3451:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_PtTqAtWhlFrntActEth_PtTqAtWhlFrntActEth(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_PtTqAtWhlReActEth_PtTqAtWhlReActEth':
+C:\.conan\8c0387\1\src\LVCSC.c:3470:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_PtTqAtWhlReActEth_PtTqAtWhlReActEth(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_ReAxleTqDistbn_ReAxleTqDistbn':
+C:\.conan\8c0387\1\src\LVCSC.c:3489:18: warning: variable 'e2eSts' set but not used [-Wunused-but-set-variable]
+    unsigned char e2eSts = 0;
+                  ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_RegenBrkReq_RegenBrkReq':
+C:\.conan\8c0387\1\src\LVCSC.c:3507:19: warning: variable 'e2eSts' set but not used [-Wunused-but-set-variable]
+     unsigned char e2eSts = 0;
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_VehChrgnSts_VehChrgnSts':
+C:\.conan\8c0387\1\src\LVCSC.c:3525:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_VehChrgnSts_VehChrgnSts(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_VehMod_VehMod':
+C:\.conan\8c0387\1\src\LVCSC.c:3540:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_VehMod_VehMod(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_PVCdpHIB_LvcTmp_LvcTmp':
+C:\.conan\8c0387\1\src\LVCSC.c:3557:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_LvcTmp_LvcTmp(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_SWMdpHIB_DrvrEPBSwt_DrvrEPBSwt':
+C:\.conan\8c0387\1\src\LVCSC.c:3608:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_DrvrEPBSwt_DrvrEPBSwt(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_SWMdpHIB_SWMRiLvrDiagnc_SWMRiLvrDiagnc':
+C:\.conan\8c0387\1\src\LVCSC.c:3644:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_SWMRiLvrDiagnc_SWMRiLvrDiagnc(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_ALgt1_ALgt1':
+C:\.conan\8c0387\1\src\LVCSC.c:3699:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_ALgt1_ALgt1(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_ALgtWss_ALgtWss':
+C:\.conan\8c0387\1\src\LVCSC.c:3723:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_ALgtWss_ALgtWss(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_DstTrvld3_DstTrvld3':
+C:\.conan\8c0387\1\src\LVCSC.c:3747:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_DstTrvld3_DstTrvld3(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_MovDir_MovDir':
+C:\.conan\8c0387\1\src\LVCSC.c:3765:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_MovDir_MovDir(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_RoadIncln1_RoadIncln1':
+C:\.conan\8c0387\1\src\LVCSC.c:3783:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_RoadIncln1_RoadIncln1(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_VLgt_VLgt':
+C:\.conan\8c0387\1\src\LVCSC.c:3806:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_VLgt_VLgt(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_VehM1_VehM1':
+C:\.conan\8c0387\1\src\LVCSC.c:3830:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_VehM1_VehM1(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMCdpLVC_SteerAgAtFrntWhl_SteerAgAtFrntWhl':
+C:\.conan\8c0387\1\src\LVCSC.c:3850:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_SteerAgAtFrntWhl_SteerAgAtFrntWhl(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMPHIB_CarModesHI_CarModesHI':
+C:\.conan\8c0387\1\src\LVCSC.c:3866:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_CarModesHI_CarModesHI(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMPHIB_CarModeDynoSafeHI_CarModeDynoSafeHI':
+C:\.conan\8c0387\1\src\LVCSC.c:3883:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_CarModeDynoSafeHI_CarModeDynoSafeHI(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMPHIB_UsageModeAvailableIsActivatedHI_UsageModeAvailableIsActivatedHI':
+C:\.conan\8c0387\1\src\LVCSC.c:3897:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_UsageModeAvailableIsActivatedHI_UsageModeAvailableIsActivatedHI(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMPHIB_UsageModeConvenienceIsActivatedHI_UsageModeConvenienceIsActivatedHI':
+C:\.conan\8c0387\1\src\LVCSC.c:3912:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_UsageModeConvenienceIsActivatedHI_UsageModeConvenienceIsActivatedHI(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMPHIB_UsageModeDrivingIsActivatedHI_UsageModeDrivingIsActivatedHI':
+C:\.conan\8c0387\1\src\LVCSC.c:3927:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_UsageModeDrivingIsActivatedHI_UsageModeDrivingIsActivatedHI(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_VMPHIB_UsageModeMovableIsActivatedHI_UsageModeMovableIsActivatedHI':
+C:\.conan\8c0387\1\src\LVCSC.c:3942:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_UsageModeMovableIsActivatedHI_UsageModeMovableIsActivatedHI(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'Read_ZenseactHIB_CruisingState1_CruisingState1':
+C:\.conan\8c0387\1\src\LVCSC.c:3957:19: warning: unused variable 'e2eSts' [-Wunused-variable]
+     unsigned char e2eSts = Rte_Read_CruisingState1_CruisingState1(&data,&error_code);
+                   ^
+C:\.conan\8c0387\1\src\LVCSC.c: At top level:
+C:\.conan\8c0387\1\src\LVCSC.c:3967:6: warning: conflicting types for 'Write_PVCdpHIB_ReqToDrv_ReqToDrv'
+ void Write_PVCdpHIB_ReqToDrv_ReqToDrv(void)
+      ^
+C:\.conan\8c0387\1\src\LVCSC.c:2536:5: note: previous implicit declaration of 'Write_PVCdpHIB_ReqToDrv_ReqToDrv' was here
+     Write_PVCdpHIB_ReqToDrv_ReqToDrv();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:4306:6: warning: conflicting types for 'Write_PVCdpHIB_MonrDiagnc1_MonrDiagnc1'
+ void Write_PVCdpHIB_MonrDiagnc1_MonrDiagnc1(void)
+      ^
+C:\.conan\8c0387\1\src\LVCSC.c:2578:5: note: previous implicit declaration of 'Write_PVCdpHIB_MonrDiagnc1_MonrDiagnc1' was here
+     Write_PVCdpHIB_MonrDiagnc1_MonrDiagnc1();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:4321:6: warning: conflicting types for 'Write_PVCdpHIB_MonrDiagnc2_MonrDiagnc2'
+ void Write_PVCdpHIB_MonrDiagnc2_MonrDiagnc2(void)
+      ^
+C:\.conan\8c0387\1\src\LVCSC.c:2579:5: note: previous implicit declaration of 'Write_PVCdpHIB_MonrDiagnc2_MonrDiagnc2' was here
+     Write_PVCdpHIB_MonrDiagnc2_MonrDiagnc2();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:4336:6: warning: conflicting types for 'Write_PVCdpHIB_MonrDiagnc3_MonrDiagnc3'
+ void Write_PVCdpHIB_MonrDiagnc3_MonrDiagnc3(void)
+      ^
+C:\.conan\8c0387\1\src\LVCSC.c:2580:5: note: previous implicit declaration of 'Write_PVCdpHIB_MonrDiagnc3_MonrDiagnc3' was here
+     Write_PVCdpHIB_MonrDiagnc3_MonrDiagnc3();
+     ^
+C:\.conan\8c0387\1\src\LVCSC.c:4351:6: warning: conflicting types for 'Write_PVCdpHIB_MonrDiagnc4_MonrDiagnc4'
+ void Write_PVCdpHIB_MonrDiagnc4_MonrDiagnc4(void)
+      ^
+C:\.conan\8c0387\1\src\LVCSC.c:2581:5: note: previous implicit declaration of 'Write_PVCdpHIB_MonrDiagnc4_MonrDiagnc4' was here
+     Write_PVCdpHIB_MonrDiagnc4_MonrDiagnc4();
+     ^
+[ 17%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/accel_veh_frame_est.c.obj
+C:\.conan\8c0387\1\src\LVCSC.c: In function 'LVC_InitFunction':
+C:\.conan\8c0387\1\src\LVCSC.c:4657:5: warning: implicit declaration of function 'LVCSC_VcExtINI' [-Wimplicit-function-declaration]
+     LVCSC_VcExtINI();
+     ^
+[ 17%] Built target direction-indicator-auxiliary-handler_dev
+[ 17%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/Tab1DIntpI1T4.c.obj
+[ 18%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/aero_dyn_drg_force_est.c.obj
+[ 19%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/arb_integration_in.c.obj
+[ 19%] Building C object VehicleModesProviderHIB-SPA2/CMakeFiles/VehicleModesProviderHIB-SPA2_dev.dir/C_/.conan/90af49/1/src/VehicleModesHIBSPA2.c.obj
+[ 20%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/Tab1DIntpI1T52.c.obj
+[ 20%] Linking C static library libhib_test_apps_dev.a
+[ 20%] Built target hib_test_apps_dev
+[ 20%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/arb_integration_out.c.obj
+[ 21%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/Tab1DIntpI1T54.c.obj
+[ 22%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/brk_tq_arb.c.obj
+[ 22%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/Tab1DIntpI1T6.c.obj
+[ 23%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/dist_trvld_est.c.obj
+[ 24%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/Tab2DIntpI1T6.c.obj
+[ 25%] Linking C static library libVehicleModesProviderHIB-SPA2_dev.a
+[ 25%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/drvr_decel_req_est.c.obj
+[ 25%] Built target VehicleModesProviderHIB-SPA2_dev
+[ 27%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/TabIdxS18T0.c.obj
+[ 27%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/gyro_bias_fltr.c.obj
+[ 28%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/imu_arb.c.obj
+[ 28%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/TabIdxS18T388.c.obj
+[ 28%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/imu_fusion.c.obj
+[ 29%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/TabIdxS18T390.c.obj
+[ 30%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/TabIdxS18T6.c.obj
+[ 31%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/imu_offset_est.c.obj
+[ 32%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/kalman_fltr.c.obj
+[ 32%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcAccrPedlAsilA.c.obj
+[ 32%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/lat_ctrl_arb.c.obj
+[ 33%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcAccrPedlAsilB.c.obj
+[ 34%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcAccrPedlAsilC.c.obj
+[ 35%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/lat_ctrl_arb_rte_if.c.obj
+[ 36%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/lat_ctrl_arb_rte_if_read.c.obj
+[ 36%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/lat_ctrl_arb_rte_if_write.c.obj
+[ 36%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcAutonmsStandstillCtrl.c.obj
+[ 37%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcBrkLiArbn.c.obj
+[ 38%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/lat_tyre_force_est.c.obj
+[ 39%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcBrkTqArbnAsilC.c.obj
+[ 39%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcBrkTqArbnAsilD.c.obj
+[ 40%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/lgt_tyre_force_est.c.obj
+[ 40%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/mass_est.c.obj
+[ 41%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDIDAPI.c.obj
+[ 42%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/mov_dir_est.c.obj
+[ 43%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/parameters.c.obj
+[ 44%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDebug.c.obj
+[ 44%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDebugOutput.c.obj
+[ 44%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/pt_tq_arb.c.obj
+[ 45%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/recursive_ls_1d.c.obj
+[ 46%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDebugOutputSafe.c.obj
+[ 47%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/rel_pitch_roll_est.c.obj
+[ 48%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDebugSafe.c.obj
+[ 48%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/road_ang_est.c.obj
+[ 48%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDiagcMngt.c.obj
+[ 49%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/road_load_param_est.c.obj
+[ 50%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/side_slip_est.c.obj
+[ 51%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDrvrLongReq.c.obj
+[ 51%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/slip_est.c.obj
+[ 52%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDrvrStandstillCtrl.c.obj
+[ 53%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/spnsn_compr_arb.c.obj
+C:\.conan\8c0387\1\src\VcDiagcMngt.c: In function 'VcDiagcMngt':
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2005:12: warning: variable 'SDiagcMngt195_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt195_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2022:12: warning: variable 'SDiagcMngt194_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt194_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2040:12: warning: variable 'SDiagcMngt214_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt214_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2057:12: warning: variable 'SDiagcMngt193_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt193_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2075:12: warning: variable 'SDiagcMngt170_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt170_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2093:12: warning: variable 'SDiagcMngt213_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt213_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2110:12: warning: variable 'SDiagcMngt192_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt192_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2128:12: warning: variable 'SDiagcMngt169_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt169_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2147:12: warning: variable 'SDiagcMngt267_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt267_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2165:12: warning: variable 'SDiagcMngt212_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt212_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2182:12: warning: variable 'SDiagcMngt191_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt191_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2200:12: warning: variable 'SDiagcMngt168_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt168_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2223:12: warning: variable 'SDiagcMngt266_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt266_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2250:12: warning: variable 'SDiagcMngt241_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt241_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2268:12: warning: variable 'SDiagcMngt229_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt229_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2285:12: warning: variable 'SDiagcMngt190_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt190_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2303:12: warning: variable 'SDiagcMngt167_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt167_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2320:12: warning: variable 'SDiagcMngt274_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt274_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2339:12: warning: variable 'SDiagcMngt265_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt265_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2369:12: warning: variable 'SDiagcMngt255_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt255_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2391:12: warning: variable 'SDiagcMngt249_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt249_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2410:12: warning: variable 'SDiagcMngt240_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt240_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2431:12: warning: variable 'SDiagcMngt228_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt228_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2463:12: warning: variable 'SDiagcMngt211_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt211_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2480:12: warning: variable 'SDiagcMngt189_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt189_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2499:12: warning: variable 'SDiagcMngt264_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt264_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2518:12: warning: variable 'SDiagcMngt239_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt239_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2536:12: warning: variable 'SDiagcMngt227_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt227_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2553:12: warning: variable 'SDiagcMngt188_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt188_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2571:12: warning: variable 'SDiagcMngt166_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt166_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2590:12: warning: variable 'SDiagcMngt263_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt263_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2608:12: warning: variable 'SDiagcMngt254_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt254_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2634:12: warning: variable 'SDiagcMngt248_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt248_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2653:12: warning: variable 'SDiagcMngt238_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt238_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2671:12: warning: variable 'SDiagcMngt226_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt226_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2703:12: warning: variable 'SDiagcMngt210_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt210_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2724:12: warning: variable 'SDiagcMngt187_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt187_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2742:12: warning: variable 'SDiagcMngt165_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt165_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2760:12: warning: variable 'SDiagcMngt164_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt164_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2777:12: warning: variable 'SDiagcMngt186_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt186_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2794:12: warning: variable 'SDiagcMngt185_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt185_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2812:12: warning: variable 'SDiagcMngt209_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt209_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2829:12: warning: variable 'SDiagcMngt184_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt184_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2847:12: warning: variable 'SDiagcMngt163_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt163_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2866:12: warning: variable 'SDiagcMngt208_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt208_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2883:12: warning: variable 'SDiagcMngt183_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt183_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2901:12: warning: variable 'SDiagcMngt162_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt162_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2918:12: warning: variable 'SDiagcMngt262_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt262_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2937:12: warning: variable 'SDiagcMngt207_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt207_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2954:12: warning: variable 'SDiagcMngt182_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt182_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2972:12: warning: variable 'SDiagcMngt161_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt161_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:2989:12: warning: variable 'SDiagcMngt261_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt261_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3006:12: warning: variable 'SDiagcMngt237_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt237_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3024:12: warning: variable 'SDiagcMngt225_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt225_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3041:12: warning: variable 'SDiagcMngt181_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt181_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3059:12: warning: variable 'SDiagcMngt160_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt160_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3076:12: warning: variable 'SDiagcMngt273_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt273_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3093:12: warning: variable 'SDiagcMngt260_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt260_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3137:12: warning: variable 'SDiagcMngt253_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt253_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3153:12: warning: variable 'SDiagcMngt247_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt247_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3170:12: warning: variable 'SDiagcMngt236_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt236_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3188:12: warning: variable 'SDiagcMngt224_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt224_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3208:12: warning: variable 'SDiagcMngt206_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt206_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3225:12: warning: variable 'SDiagcMngt180_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt180_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3242:12: warning: variable 'SDiagcMngt259_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt259_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3259:12: warning: variable 'SDiagcMngt235_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt235_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3277:12: warning: variable 'SDiagcMngt223_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt223_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3296:12: warning: variable 'SDiagcMngt179_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt179_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3314:12: warning: variable 'SDiagcMngt159_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt159_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3331:12: warning: variable 'SDiagcMngt258_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt258_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3349:12: warning: variable 'SDiagcMngt252_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt252_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3365:12: warning: variable 'SDiagcMngt246_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt246_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3382:12: warning: variable 'SDiagcMngt234_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt234_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3400:12: warning: variable 'SDiagcMngt222_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt222_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3420:12: warning: variable 'SDiagcMngt205_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt205_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3438:12: warning: variable 'SDiagcMngt178_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt178_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3457:12: warning: variable 'SDiagcMngt158_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt158_ok;
+            ^
+C:\.conan\8c0387\1\src\VcDiagcMngt.c:3476:12: warning: variable 'SDiagcMngt157_ok' set but not used [-Wunused-but-set-variable]
+       Bool SDiagcMngt157_ok;
+            ^
+[ 54%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/stab_arb.c.obj
+[ 54%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcDummy_spm.c.obj
+[ 54%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/stab_hi_main.c.obj
+[ 55%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcEgyMonr.c.obj
+[ 56%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/stab_rte_read_if.c.obj
+[ 57%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/stab_rte_write_if.c.obj
+[ 58%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcElecMotCtrl.c.obj
+[ 58%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/stab_spt_mode.c.obj
+[ 58%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcExt10ms.c.obj
+[ 59%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/state_est_common.c.obj
+[ 60%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcExtINI.c.obj
+[ 61%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcExtVar.c.obj
+[ 62%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/steer_rack_pos_arb.c.obj
+[ 62%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/trlr_mass_est.c.obj
+In file included from C:\.conan\8c0387\1\src\VcExt10ms.c:1:0:
+C:\.conan\8c0387\1\src\VcExt10ms.c: In function 'LVCSC_VcExt10ms':
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:103:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDebug);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:105:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDebugSafe);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:107:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcVehCfg);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:109:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcInpVehStSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:111:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcInpMiscSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:113:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcInpElecMotSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:115:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcInpBrkSysSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:117:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcInpStabSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:119:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcInpLvcQmSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:121:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcAccrPedlAsilA);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:123:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcAccrPedlAsilB);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:125:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcAccrPedlAsilC);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:127:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcVehMtnModMgr);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:129:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcGearLvrItp);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:131:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcPrpsnDirAllwd);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:133:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcPrpsnDirCtrl);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:135:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDrvrStandstillCtrl);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:137:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcAutonmsStandstillCtrl);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:139:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcStandstillCtrl);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:141:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcWhlTqEst);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:143:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcEgyMonr);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:145:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcBrkLiArbn);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:147:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcSpdLimArbn);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:149:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcSpdLimMon);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:151:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDrvrLongReq);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:153:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOverBrkgAutnmsA);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:155:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOverPrpAutnmsA);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:157:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOverBrkgTqArbn);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:159:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcPrpTqArbn);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:161:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOverBrkgTqMonr);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:163:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcUnderBrkgTqMonr);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:165:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcUnderBrkgTqMonrQm);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:167:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcPrpTqMonr);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:169:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcTvdcMonrAsilB);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:171:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcStabyLim);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:173:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcElecMotCtrl);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:175:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcBrkTqArbnAsilC);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:177:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcBrkTqArbnAsilD);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:179:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcHmiQm);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:181:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcRdntTqPath);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:183:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOutpSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:185:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOutpBrkSysSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:187:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOutpQmSigCdng);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:189:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDiagcMngt);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:191:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDebugOutput);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:193:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcDebugOutputSafe);
+   ^
+C:\.conan\2b8294\1\inc\GenData\Components/Rte_LVCSC.h:660:150: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+ #  define Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1) (CddPFMC_ASILD_LVC_LogicalCheckpointReached(arg1), ((Std_ReturnType)RTE_E_OK))
+                                                                                                                                                      ^
+C:\.conan\8c0387\1\src\VcExt10ms.c:195:3: note: in expansion of macro 'Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached'
+   Rte_Call_LVC_LVCLogicalCheckpointReached_CddPFMC_ASILD_LVC_LogicalCheckpointReached(ID_VcOutpDiagcSigCdng);
+   ^
+[ 63%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_param.c.obj
+[ 63%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcExtVarSafe.c.obj
+[ 64%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_spd_est.c.obj
+[ 65%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcGearLvrItp.c.obj
+[ 65%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_arb.c.obj
+[ 66%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_arb_lib.c.obj
+[ 67%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcHmiQm.c.obj
+[ 67%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcInpBrkSysSigCdng.c.obj
+[ 68%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_est.c.obj
+[ 69%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcInpElecMotSigCdng.c.obj
+[ 69%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_fltr.c.obj
+[ 70%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcInpLvcQmSigCdng.c.obj
+[ 71%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_math.c.obj
+[ 72%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_math_local.c.obj
+[ 72%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_rte_read_if.c.obj
+[ 72%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcInpMiscSigCdng.c.obj
+[ 73%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/veh_state_rte_write_if.c.obj
+[ 74%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcInpStabSigCdng.c.obj
+C:\.conan\8656dc\1\src\veh_state_rte_read_if.c:197:26: warning: 'vms_rte_brk_fric_tq_fr' defined but not used [-Wunused-variable]
+ static struct rte_states vms_rte_brk_fric_tq_fr;
+                          ^
+C:\.conan\8656dc\1\src\veh_state_rte_read_if.c:203:26: warning: 'vms_rte_brk_fric_tq_re' defined but not used [-Wunused-variable]
+ static struct rte_states vms_rte_brk_fric_tq_re;
+                          ^
+C:\.conan\8656dc\1\src\veh_state_rte_read_if.c:352:21: warning: 'Qf3bit_to_err' defined but not used [-Wunused-function]
+ static enum sig_err Qf3bit_to_err(QF3bit qf3)
+                     ^
+[ 75%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/vehiclemotionstate.c.obj
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:21:29: warning: 'write_imu_accel_lat_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_imu_accel_lat_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:27:29: warning: 'write_imu_accel_lgt_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_imu_accel_lgt_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:33:29: warning: 'write_imu_accel_vert_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_imu_accel_vert_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:39:29: warning: 'write_imu_gyro_roll_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_imu_gyro_roll_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:45:29: warning: 'write_imu_gyro_pitch_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_imu_gyro_pitch_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:51:29: warning: 'write_imu_gyro_yaw_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_imu_gyro_yaw_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:99:29: warning: 'write_PSCM_veh_vel_lgt_e2e_err' defined but not used [-Wunused-variable]
+ static Rte_TransformerError write_PSCM_veh_vel_lgt_e2e_err;
+                             ^
+C:\.conan\8656dc\1\src\veh_state_rte_write_if.c:413:15: warning: 'err_to_QF3bit' defined but not used [-Wunused-function]
+ static QF3bit err_to_QF3bit(enum sig_err err)
+               ^
+[ 76%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcInpVehStSigCdng.c.obj
+[ 76%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/vert_tyre_force_est.c.obj
+[ 76%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOutpBrkSysSigCdng.c.obj
+[ 77%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOutpDiagcSigCdng.c.obj
+[ 78%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/whl_ang_est.c.obj
+[ 79%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOutpQmSigCdng.c.obj
+[ 80%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/whl_rd.c.obj
+[ 80%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOutpSigCdng.c.obj
+[ 80%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/whl_spd_arb.c.obj
+[ 82%] Building C object VMCHIB/CMakeFiles/VMCHIB_dev.dir/C_/.conan/8656dc/1/src/whl_vel_proj.c.obj
+[ 81%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOverBrkgAutnmsA.c.obj
+[ 83%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOverBrkgTqArbn.c.obj
+[ 84%] Linking C static library libVMCHIB_dev.a
+[ 84%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOverBrkgTqMonr.c.obj
+[ 84%] Built target VMCHIB_dev
+[ 85%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcOverPrpAutnmsA.c.obj
+[ 86%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcPrpTqArbn.c.obj
+[ 86%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcPrpTqMonr.c.obj
+[ 87%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcPrpsnDirAllwd.c.obj
+[ 88%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcPrpsnDirCtrl.c.obj
+[ 88%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcRdntTqPath.c.obj
+[ 89%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcSpdLimArbn.c.obj
+[ 90%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcSpdLimMon.c.obj
+[ 90%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcStabyLim.c.obj
+[ 91%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcStandstillCtrl.c.obj
+[ 92%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcTvdcMonrAsilB.c.obj
+[ 92%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcUnderBrkgTqMonr.c.obj
+[ 93%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcUnderBrkgTqMonrQm.c.obj
+[ 94%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcVehCfg.c.obj
+[ 94%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcVehMtnModMgr.c.obj
+[ 95%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/VcWhlTqEst.c.obj
+[ 96%] Building C object LVCSC_HIB/CMakeFiles/LVCSC_HIB_dev.dir/C_/.conan/8c0387/1/src/vcc_nvm_struct.c.obj
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c: In function 'LVCSC_VcNvmInit':
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:30:3: warning: implicit declaration of function 'Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_8_SetRamBlockStatus' [-Wimplicit-function-declaration]
+   Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_8_SetRamBlockStatus(TRUE);
+   ^
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:31:3: warning: implicit declaration of function 'Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_8_PER_SetRamBlockStatus' [-Wimplicit-function-declaration]
+   Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_8_PER_SetRamBlockStatus(TRUE);
+   ^
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:32:3: warning: implicit declaration of function 'Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_16_SetRamBlockStatus' [-Wimplicit-function-declaration]
+   Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_16_SetRamBlockStatus(TRUE);
+   ^
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:33:3: warning: implicit declaration of function 'Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_16_PER_SetRamBlockStatus' [-Wimplicit-function-declaration]
+   Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_16_PER_SetRamBlockStatus(TRUE);
+   ^
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:34:3: warning: implicit declaration of function 'Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_32_SetRamBlockStatus' [-Wimplicit-function-declaration]
+   Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_32_SetRamBlockStatus(TRUE);
+   ^
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:35:3: warning: implicit declaration of function 'Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_32_PER_SetRamBlockStatus' [-Wimplicit-function-declaration]
+   Rte_Call_PS_LVCSC_SwcNv_LVCSC_NVM_LIST_32_PER_SetRamBlockStatus(TRUE);
+   ^
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c: In function 'LVCSC_VcNvm':
+C:\.conan\8c0387\1\src\vcc_nvm_struct.c:42:9: warning: unused variable 'errorStatus' [-Wunused-variable]
+   UInt8 errorStatus = 0;
+         ^
+[ 96%] Linking C static library libLVCSC_HIB_dev.a
+[ 96%] Built target LVCSC_HIB_dev
+[ 97%] Building C object CMakeFiles/appHIBdev.elf.dir/null.c.obj
+[ 97%] Building C object CMakeFiles/appHIBdev.elf.dir/C_/.conan/2b8294/1/misc/templates/CarconfigMgr/CarconfigMgr.c.obj
+[ 98%] Building C object CMakeFiles/appHIBdev.elf.dir/C_/.conan/2b8294/1/misc/templates/VDACapabilityHIBSPA2/VDACapabilityHIBSPA2.c.obj
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3513:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_r_VDACapability_Init_ADLatCtrlFallbackCapabilitySec_ADLatCtrlFallbackCapabilitySec = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3583:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_r_VDACapability_Init_ADLatCtrlCapabilitySec_ADLatCtrlCapabilitySec = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3604:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_w_VDACapability_Init_ADLatCtrlCapabilityPrim_ADLatCtrlCapabilityPrim = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3611:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_w_VDACapability_Init_ADLatCtrlFallbackCapabilityPrim_ADLatCtrlFallbackCapabilityPrim = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3743:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_r_VDACapability_MainFunction_ADLatCtrlFallbackCapabilitySec_ADLatCtrlFallbackCapabilitySec = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3820:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_r_VDACapability_MainFunction_ADLatCtrlCapabilitySec_ADLatCtrlCapabilitySec = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3841:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_w_VDACapability_MainFunction_ADLatCtrlCapabilityPrim_ADLatCtrlCapabilityPrim = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:3848:1: warning: missing initializer for field 'CurvatureRate' of 'ADLatCtrlCapabilityInfo' [-Wmissing-field-initializers]
+ static volatile ADLatCtrlCapabilityInfo g_w_VDACapability_MainFunction_ADLatCtrlFallbackCapabilityPrim_ADLatCtrlFallbackCapabilityPrim = {0};
+ ^
+In file included from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2_Type.h:33:0,
+                 from C:\.conan\2b8294\1\inc\GenData\Components/Rte_VDACapabilityHIBSPA2.h:45,
+                 from C:\.conan\2b8294\1\misc\templates\VDACapabilityHIBSPA2\VDACapabilityHIBSPA2.c:58:
+C:\.conan\2b8294\1\inc\GenData/Rte_Type.h:2128:21: note: 'CurvatureRate' declared here
+   CurvatureRateLim1 CurvatureRate;
+                     ^
+[ 99%] Linking C executable bin\appHIBdev.elf
+LVCSC_HIB/libLVCSC_HIB_dev.a(VcExt10ms.c.obj): In function `LVCSC_VcExt10ms':
+C:\.conan\8c0387\1\src/VcExt10ms.c:103: error: undefined reference to `ID_VcDebug'
+C:\.conan\8c0387\1\src/VcExt10ms.c:103: error: undefined reference to `ID_VcDebug'
+C:\.conan\8c0387\1\src/VcExt10ms.c:105: error: undefined reference to `ID_VcDebugSafe'
+C:\.conan\8c0387\1\src/VcExt10ms.c:105: error: undefined reference to `ID_VcDebugSafe'
+C:\.conan\8c0387\1\src/VcExt10ms.c:107: error: undefined reference to `ID_VcVehCfg'
+C:\.conan\8c0387\1\src/VcExt10ms.c:107: error: undefined reference to `ID_VcVehCfg'
+C:\.conan\8c0387\1\src/VcExt10ms.c:109: error: undefined reference to `ID_VcInpVehStSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:109: error: undefined reference to `ID_VcInpVehStSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:111: error: undefined reference to `ID_VcInpMiscSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:111: error: undefined reference to `ID_VcInpMiscSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:113: error: undefined reference to `ID_VcInpElecMotSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:113: error: undefined reference to `ID_VcInpElecMotSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:115: error: undefined reference to `ID_VcInpBrkSysSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:115: error: undefined reference to `ID_VcInpBrkSysSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:117: error: undefined reference to `ID_VcInpStabSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:117: error: undefined reference to `ID_VcInpStabSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:119: error: undefined reference to `ID_VcInpLvcQmSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:119: error: undefined reference to `ID_VcInpLvcQmSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:121: error: undefined reference to `ID_VcAccrPedlAsilA'
+C:\.conan\8c0387\1\src/VcExt10ms.c:121: error: undefined reference to `ID_VcAccrPedlAsilA'
+C:\.conan\8c0387\1\src/VcExt10ms.c:123: error: undefined reference to `ID_VcAccrPedlAsilB'
+C:\.conan\8c0387\1\src/VcExt10ms.c:123: error: undefined reference to `ID_VcAccrPedlAsilB'
+C:\.conan\8c0387\1\src/VcExt10ms.c:125: error: undefined reference to `ID_VcAccrPedlAsilC'
+C:\.conan\8c0387\1\src/VcExt10ms.c:125: error: undefined reference to `ID_VcAccrPedlAsilC'
+C:\.conan\8c0387\1\src/VcExt10ms.c:127: error: undefined reference to `ID_VcVehMtnModMgr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:127: error: undefined reference to `ID_VcVehMtnModMgr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:129: error: undefined reference to `ID_VcGearLvrItp'
+C:\.conan\8c0387\1\src/VcExt10ms.c:129: error: undefined reference to `ID_VcGearLvrItp'
+C:\.conan\8c0387\1\src/VcExt10ms.c:131: error: undefined reference to `ID_VcPrpsnDirAllwd'
+C:\.conan\8c0387\1\src/VcExt10ms.c:131: error: undefined reference to `ID_VcPrpsnDirAllwd'
+C:\.conan\8c0387\1\src/VcExt10ms.c:133: error: undefined reference to `ID_VcPrpsnDirCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:133: error: undefined reference to `ID_VcPrpsnDirCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:135: error: undefined reference to `ID_VcDrvrStandstillCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:135: error: undefined reference to `ID_VcDrvrStandstillCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:137: error: undefined reference to `ID_VcAutonmsStandstillCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:137: error: undefined reference to `ID_VcAutonmsStandstillCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:139: error: undefined reference to `ID_VcStandstillCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:139: error: undefined reference to `ID_VcStandstillCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:141: error: undefined reference to `ID_VcWhlTqEst'
+C:\.conan\8c0387\1\src/VcExt10ms.c:141: error: undefined reference to `ID_VcWhlTqEst'
+C:\.conan\8c0387\1\src/VcExt10ms.c:143: error: undefined reference to `ID_VcEgyMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:143: error: undefined reference to `ID_VcEgyMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:145: error: undefined reference to `ID_VcBrkLiArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:145: error: undefined reference to `ID_VcBrkLiArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:147: error: undefined reference to `ID_VcSpdLimArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:147: error: undefined reference to `ID_VcSpdLimArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:149: error: undefined reference to `ID_VcSpdLimMon'
+C:\.conan\8c0387\1\src/VcExt10ms.c:149: error: undefined reference to `ID_VcSpdLimMon'
+C:\.conan\8c0387\1\src/VcExt10ms.c:151: error: undefined reference to `ID_VcDrvrLongReq'
+C:\.conan\8c0387\1\src/VcExt10ms.c:151: error: undefined reference to `ID_VcDrvrLongReq'
+C:\.conan\8c0387\1\src/VcExt10ms.c:153: error: undefined reference to `ID_VcOverBrkgAutnmsA'
+C:\.conan\8c0387\1\src/VcExt10ms.c:153: error: undefined reference to `ID_VcOverBrkgAutnmsA'
+C:\.conan\8c0387\1\src/VcExt10ms.c:155: error: undefined reference to `ID_VcOverPrpAutnmsA'
+C:\.conan\8c0387\1\src/VcExt10ms.c:155: error: undefined reference to `ID_VcOverPrpAutnmsA'
+C:\.conan\8c0387\1\src/VcExt10ms.c:157: error: undefined reference to `ID_VcOverBrkgTqArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:157: error: undefined reference to `ID_VcOverBrkgTqArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:159: error: undefined reference to `ID_VcPrpTqArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:159: error: undefined reference to `ID_VcPrpTqArbn'
+C:\.conan\8c0387\1\src/VcExt10ms.c:161: error: undefined reference to `ID_VcOverBrkgTqMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:161: error: undefined reference to `ID_VcOverBrkgTqMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:163: error: undefined reference to `ID_VcUnderBrkgTqMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:163: error: undefined reference to `ID_VcUnderBrkgTqMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:165: error: undefined reference to `ID_VcUnderBrkgTqMonrQm'
+C:\.conan\8c0387\1\src/VcExt10ms.c:165: error: undefined reference to `ID_VcUnderBrkgTqMonrQm'
+C:\.conan\8c0387\1\src/VcExt10ms.c:167: error: undefined reference to `ID_VcPrpTqMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:167: error: undefined reference to `ID_VcPrpTqMonr'
+C:\.conan\8c0387\1\src/VcExt10ms.c:169: error: undefined reference to `ID_VcTvdcMonrAsilB'
+C:\.conan\8c0387\1\src/VcExt10ms.c:169: error: undefined reference to `ID_VcTvdcMonrAsilB'
+C:\.conan\8c0387\1\src/VcExt10ms.c:171: error: undefined reference to `ID_VcStabyLim'
+C:\.conan\8c0387\1\src/VcExt10ms.c:171: error: undefined reference to `ID_VcStabyLim'
+C:\.conan\8c0387\1\src/VcExt10ms.c:173: error: undefined reference to `ID_VcElecMotCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:173: error: undefined reference to `ID_VcElecMotCtrl'
+C:\.conan\8c0387\1\src/VcExt10ms.c:175: error: undefined reference to `ID_VcBrkTqArbnAsilC'
+C:\.conan\8c0387\1\src/VcExt10ms.c:175: error: undefined reference to `ID_VcBrkTqArbnAsilC'
+C:\.conan\8c0387\1\src/VcExt10ms.c:177: error: undefined reference to `ID_VcBrkTqArbnAsilD'
+C:\.conan\8c0387\1\src/VcExt10ms.c:177: error: undefined reference to `ID_VcBrkTqArbnAsilD'
+C:\.conan\8c0387\1\src/VcExt10ms.c:179: error: undefined reference to `ID_VcHmiQm'
+C:\.conan\8c0387\1\src/VcExt10ms.c:179: error: undefined reference to `ID_VcHmiQm'
+C:\.conan\8c0387\1\src/VcExt10ms.c:181: error: undefined reference to `ID_VcRdntTqPath'
+C:\.conan\8c0387\1\src/VcExt10ms.c:181: error: undefined reference to `ID_VcRdntTqPath'
+C:\.conan\8c0387\1\src/VcExt10ms.c:183: error: undefined reference to `ID_VcOutpSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:183: error: undefined reference to `ID_VcOutpSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:185: error: undefined reference to `ID_VcOutpBrkSysSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:185: error: undefined reference to `ID_VcOutpBrkSysSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:187: error: undefined reference to `ID_VcOutpQmSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:187: error: undefined reference to `ID_VcOutpQmSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:189: error: undefined reference to `ID_VcDiagcMngt'
+C:\.conan\8c0387\1\src/VcExt10ms.c:189: error: undefined reference to `ID_VcDiagcMngt'
+C:\.conan\8c0387\1\src/VcExt10ms.c:191: error: undefined reference to `ID_VcDebugOutput'
+C:\.conan\8c0387\1\src/VcExt10ms.c:191: error: undefined reference to `ID_VcDebugOutput'
+C:\.conan\8c0387\1\src/VcExt10ms.c:193: error: undefined reference to `ID_VcDebugOutputSafe'
+C:\.conan\8c0387\1\src/VcExt10ms.c:193: error: undefined reference to `ID_VcDebugOutputSafe'
+C:\.conan\8c0387\1\src/VcExt10ms.c:195: error: undefined reference to `ID_VcOutpDiagcSigCdng'
+C:\.conan\8c0387\1\src/VcExt10ms.c:195: error: undefined reference to `ID_VcOutpDiagcSigCdng'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\appHIBdev.elf.dir\build.make:678: recipe for target 'bin/appHIBdev.elf' failed
+make.exe[2]: *** [bin/appHIBdev.elf] Error 1
+CMakeFiles\Makefile2:254: recipe for target 'CMakeFiles/appHIBdev.elf.dir/all' failed
+make.exe[1]: *** [CMakeFiles/appHIBdev.elf.dir/all] Error 2
+Makefile:89: recipe for target 'all' failed
+make.exe: *** [all] Error 2
+ERROR: 
+	ConanException: Error 2 while executing cmake --build "C:\Jenkins\Highgarden\workspace\HI-Manifests\hix_build_apps@3\csp\products\hi_manifests\build" -- -j4
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;31m [ERROR] Err: Build failed with Error: hudson.AbortException: script returned exit code 1 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] error
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: Failed during build of hib with variant: dev
+Finished: FAILURE
