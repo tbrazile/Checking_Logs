@@ -1,0 +1,1602 @@
+Started by upstream project "HI-Manifests/hix_manifests_test" build number 2290
+originally caused by:
+ Started by upstream project "HI-Manifests/hix_manifests_gate" build number 5754
+ originally caused by:
+  Triggered by Gerrit: https://csp-gerrit.volvocars.biz/c/csp/products/hi_manifests/+/277958
+Checking out git https://csp-gerrit.volvocars.biz/csp/products/hi_manifests into /var/jenkins_home/jobs/HI-Manifests/jobs/HI_Manifests_flash_with_verification/workspace@script/49f5505820cd1a7caf48c2dd5776fb290a91c84cbf699a0321f06d453b38da0d to read jenkins/HI_Manifests_flash_with_verification.jenkinsfile
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/HI_Manifests_flash_with_verification/workspace@script/49f5505820cd1a7caf48c2dd5776fb290a91c84cbf699a0321f06d453b38da0d/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/csp/products/hi_manifests # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/csp/products/hi_manifests
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/csp/products/hi_manifests refs/changes/58/277958/3 # timeout=10
+ > git rev-parse origin/FETCH_HEAD^{commit} # timeout=10
+ > git rev-parse FETCH_HEAD^{commit} # timeout=10
+Checking out Revision 9236607e6651c2d9078f4dfddf002894ef9cc364 (FETCH_HEAD)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9236607e6651c2d9078f4dfddf002894ef9cc364 # timeout=10
+Commit message: "ad_adas_hib lib for SDB2310."
+ > git rev-list --no-walk 14c59aa2ad92a504ae9fae2b91c929969e0422e7 # timeout=10
+Loading library vcclib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs # timeout=10
+Found match: refs/heads/master revision 8b2d731d4bf70902ac560dbe0eca4cdedec7de1e
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/HI_Manifests_flash_with_verification/workspace@libs/702d0668c4d7a931cfb75113c8e410d0845503ecdaec3f0630b1558c2d813350/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/ci/jenkins_sharedlibs +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 8b2d731d4bf70902ac560dbe0eca4cdedec7de1e (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8b2d731d4bf70902ac560dbe0eca4cdedec7de1e # timeout=10
+Commit message: "Setting up spa2_rel7 release branch"
+Loading library hicilib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ # timeout=10
+Found match: refs/heads/master revision e9dc433f986198ed5452b00660b2c71b24929814
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/HI_Manifests_flash_with_verification/workspace@libs/d261c62012accc97ea8881a8a352b3abe14b1c9a6c26b1ad609eac011128df3e/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/ci/hi/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision e9dc433f986198ed5452b00660b2c71b24929814 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e9dc433f986198ed5452b00660b2c71b24929814 # timeout=10
+Commit message: "Update Email list for autosar and polyspace jobs"
+Loading library testlib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git ls-remote -- https://csp-gerrit.volvocars.biz/a/csp/products/hi/test # timeout=10
+Found match: refs/heads/master revision 40c1209032dd50cfcf76c1373fe3ceef67b1fc97
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential artcspcm-gerrit-userpass
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/HI_Manifests_flash_with_verification/workspace@libs/dbffb5705647e2b4e3a3c67357772b0a5ec703a4f493f2b05a77f03fd0d076af/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hi/test # timeout=10
+Fetching without tags
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hi/test
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress -- https://csp-gerrit.volvocars.biz/a/csp/products/hi/test +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 40c1209032dd50cfcf76c1373fe3ceef67b1fc97 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 40c1209032dd50cfcf76c1373fe3ceef67b1fc97 # timeout=10
+Commit message: "Fasttrack CI"
+Loading library refresh-artifactory-token@v1.0.0
+Attempting to resolve v1.0.0 from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git ls-remote -- https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Found match: refs/tags/v1.0.0 revision ba596c79745111dc228904a292e48b0607e2506e
+Resolving tag commit... (remote references may be a lightweight tag or an annotated tag)
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-d492bfbab452f4c3c6fe4bd5b2b50dad/.git # timeout=10
+Setting origin to https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token
+ > git config remote.origin.url https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/tags/v1.0.0^{commit} # timeout=10
+Resolved tag v1.0.0 revision ba596c79745111dc228904a292e48b0607e2506e
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential gerrit.volvocars.net-artcspci
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/HI-Manifests/jobs/HI_Manifests_flash_with_verification/workspace@libs/87d56b6697976fd915463213d3a2695d39e6a9c650238a1d61daba49eef2c09c/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token # timeout=10
+Fetching with tags
+Fetching upstream changes from https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials ARTCSPCI Global-Gerrit (Non-CSP) credentials
+ > git fetch --tags --force --progress -- https://gerrit.volvocars.biz/a/_/jenkins-shared-libraries/refresh-artifactory-token +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ba596c79745111dc228904a292e48b0607e2506e (v1.0.0)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba596c79745111dc228904a292e48b0607e2506e # timeout=10
+Commit message: "Use named params"
+ > git rev-list --no-walk ba596c79745111dc228904a292e48b0607e2506e # timeout=10
+[Pipeline] Start of Pipeline
+[Pipeline] properties
+[Pipeline] node
+Running on gotsva1793.got.volvocars.net in /home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (clean workspace on gotsva1793.got.volvocars.net)
+[Pipeline] deleteDir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Get code on linux node)
+[Pipeline] withCredentials
+Masking supported pattern matches of $GERRIT_API_TOKEN
+[Pipeline] {
+[Pipeline] sh
++ curl -s -u artcspcm:**** https://csp-gerrit.volvocars.biz/a/changes/277958
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] readJSON
+[Pipeline] isUnix
+[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Honoring refspec on initial clone
+Cloning repository ssh://csp-gerrit-ssh.volvocars.net/csp/products/hib
+ > git init /home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2/products/hib # timeout=10
+Fetching upstream changes from ssh://csp-gerrit-ssh.volvocars.net/csp/products/hib
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --no-tags --force --progress --depth=1 -- ssh://csp-gerrit-ssh.volvocars.net/csp/products/hib +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 411f61edab69ec576a8616da6258bf4715e23ebe (refs/remotes/origin/integration/spa2u)
+Commit message: "ARTHIN-14217 : Manual modification to lvfnclist"
+ > git config remote.origin.url ssh://csp-gerrit-ssh.volvocars.net/csp/products/hib # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/integration/spa2u^{commit} # timeout=10
+ > git rev-parse integration/spa2u^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 411f61edab69ec576a8616da6258bf4715e23ebe # timeout=10
+ > git rev-list --no-walk 411f61edab69ec576a8616da6258bf4715e23ebe # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (load config)
+[Pipeline] load
+[Pipeline] { (/home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2/products/hib/src/ci/jenkins/env_config.groovy)
+[Pipeline] findFiles
+[Pipeline] readYaml
+[Pipeline] }
+[Pipeline] // load
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Clean deps folder)
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Stage skipped due to CLEAN_DEPENDENCIES = false [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Clean old artifacts)
+[Pipeline] sh
++ rm -rf out/products/hib/hib_*
+[Pipeline] sh
++ rm -rf out/products/hib/build_*
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Removing the old artifacts successful [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] node
+Running on gotsva1793-1.dhcp.nordic.volvocars.net in C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (clean workspace on gotsva1793-1.dhcp.nordic.volvocars.net)
+[Pipeline] deleteDir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Get code on windows node)
+[Pipeline] withCredentials
+Masking supported pattern matches of %GERRIT_API_TOKEN%
+[Pipeline] {
+[Pipeline] sh
++ curl -s -u artcspcm:**** https://csp-gerrit.volvocars.biz/a/changes/277958
+[Pipeline] }
+[Pipeline] // withCredentials
+[Pipeline] readJSON
+[Pipeline] isUnix
+[Pipeline] checkout
+The recommended git tool is: git
+using credential artcspcm-gerrit-userpass
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Avoid fetching tags
+Honoring refspec on initial clone
+Cloning repository https://csp-gerrit.volvocars.biz/a/csp/products/hib
+ > git init C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\products\hib # timeout=10
+Fetching upstream changes from https://csp-gerrit.volvocars.biz/a/csp/products/hib
+ > git --version # timeout=10
+ > git --version # 'git version 2.46.0.windows.1'
+using GIT_ASKPASS to set credentials Gerrit credentials
+ > git fetch --no-tags --force --progress --depth=1 -- https://csp-gerrit.volvocars.biz/a/csp/products/hib +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 411f61edab69ec576a8616da6258bf4715e23ebe (refs/remotes/origin/integration/spa2u)
+ > git config remote.origin.url https://csp-gerrit.volvocars.biz/a/csp/products/hib # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse "refs/remotes/origin/integration/spa2u^{commit}" # timeout=10
+ > git rev-parse "integration/spa2u^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 411f61edab69ec576a8616da6258bf4715e23ebe # timeout=10
+Commit message: "ARTHIN-14217 : Manual modification to lvfnclist"
+ > git rev-list --no-walk 411f61edab69ec576a8616da6258bf4715e23ebe # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (load config)
+[Pipeline] load
+[Pipeline] { (C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification/products/hib/src/ci/jenkins/env_config.groovy)
+[Pipeline] findFiles
+[Pipeline] readYaml
+[Pipeline] }
+[Pipeline] // load
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Clean deps folder)
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Stage skipped due to CLEAN_DEPENDENCIES = false [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Clean old artifacts)
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>wsl rm -rf out/products/hib/hib_* 
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>wsl rm -rf out/products/hib/build_* 
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Removing the old artifacts successful [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Copy build artifacts from the job hix_build_apps)
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] 3993 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] copyArtifacts
+Copied 1 artifact from "HI-Manifests » hix_build_apps" build number 3993
+[Pipeline] unzip
+Extracting from C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\hib_artifacts.zip
+Extracting: out/products/hib/build_aio/aio_hib_dev_blue.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_aio\aio_hib_dev_blue.hex
+Extracting: out/products/hib/build_aio/aio_hib_dev_purple.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_aio\aio_hib_dev_purple.hex
+Extracting: out/products/hib/build_aio/disable_HSM.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_aio\disable_HSM.hex
+Extracting: out/products/hib/build_aio/enable_HSM_0x80004000.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_aio\enable_HSM_0x80004000.hex
+Extracting: out/products/hib/build_aio/init_HSM_DF.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_aio\init_HSM_DF.hex
+Extracting: out/products/hib/build_hix_boot_sw/hix_boot_sw/disable_HSM.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_hix_boot_sw\hix_boot_sw\disable_HSM.hex
+Extracting: out/products/hib/build_hix_boot_sw/hix_boot_sw/enable_HSM_0x80004000.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_hix_boot_sw\hix_boot_sw\enable_HSM_0x80004000.hex
+Extracting: out/products/hib/build_hix_boot_sw/hix_boot_sw/init_HSM_DF.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\build_hix_boot_sw\hix_boot_sw\init_HSM_DF.hex
+Extracting: out/products/hib/hib_vbfs/B/32442405FXP.vbf -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\hib_vbfs\B\32442405FXP.vbf
+Extracting: out/products/hib/hib_vbfs/B/32442410FXP.vbf -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\hib_vbfs\B\32442410FXP.vbf
+Extracting: out/products/hib/hib_vbfs/B/32442415FXP.vbf -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\hib_vbfs\B\32442415FXP.vbf
+Extracting: out/products/hib/hib_vbfs/B/32442420FXP.vbf -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\hib_vbfs\B\32442420FXP.vbf
+Extracting: out/products/hib/hib_vbfs/B/32442465FXP.vbf -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\hib_vbfs\B\32442465FXP.vbf
+Extracting: out/products/hib/src/build_support/debuggers/arti_menu.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\arti_menu.cmm
+Extracting: out/products/hib/src/build_support/debuggers/arti_sri_trace.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\arti_sri_trace.cmm
+Extracting: out/products/hib/src/build_support/debuggers/bmhd0.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\bmhd0.hex
+Extracting: out/products/hib/src/build_support/debuggers/ci_flash_script.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\ci_flash_script.cmm
+Extracting: out/products/hib/src/build_support/debuggers/config.t32 -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\config.t32
+Extracting: out/products/hib/src/build_support/debuggers/config_eth.t32 -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\config_eth.t32
+Extracting: out/products/hib/src/build_support/debuggers/configuration.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\configuration.cmm
+Extracting: out/products/hib/src/build_support/debuggers/core_data_corrupt_flash.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\core_data_corrupt_flash.cmm
+Extracting: out/products/hib/src/build_support/debuggers/debug_setup/debug_hix.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\debug_setup\debug_hix.cmm
+Extracting: out/products/hib/src/build_support/debuggers/debug_setup/default_bp_and_watch.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\debug_setup\default_bp_and_watch.cmm
+Extracting: out/products/hib/src/build_support/debuggers/debug_setup/default_window_layout.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\debug_setup\default_window_layout.cmm
+Extracting: out/products/hib/src/build_support/debuggers/debug_setup/use_cases/comcontroller.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\debug_setup\use_cases\comcontroller.cmm
+Extracting: out/products/hib/src/build_support/debuggers/debug_setup/use_cases/nvm.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\debug_setup\use_cases\nvm.cmm
+Extracting: out/products/hib/src/build_support/debuggers/debug_setup/use_cases/watchdog.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\debug_setup\use_cases\watchdog.cmm
+Extracting: out/products/hib/src/build_support/debuggers/delete_app.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\delete_app.hex
+Extracting: out/products/hib/src/build_support/debuggers/disable_HSM.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\disable_HSM.hex
+Extracting: out/products/hib/src/build_support/debuggers/enable_HSM_0x80004000.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\enable_HSM_0x80004000.hex
+Extracting: out/products/hib/src/build_support/debuggers/erase_dflash0.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\erase_dflash0.cmm
+Extracting: out/products/hib/src/build_support/debuggers/export_variables_to_file.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\export_variables_to_file.cmm
+Extracting: out/products/hib/src/build_support/debuggers/faulty_dflash.hex -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\faulty_dflash.hex
+Extracting: out/products/hib/src/build_support/debuggers/hsm_boot_and_hsm_data_exclusiveness_disable.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\hsm_boot_and_hsm_data_exclusiveness_disable.cmm
+Extracting: out/products/hib/src/build_support/debuggers/hsm_core_data_flash.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\hsm_core_data_flash.cmm
+Extracting: out/products/hib/src/build_support/debuggers/lauterbach.mak -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\lauterbach.mak
+Extracting: out/products/hib/src/build_support/debuggers/open_tc_hsm_layout.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\open_tc_hsm_layout.cmm
+Extracting: out/products/hib/src/build_support/debuggers/reset.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\reset.cmm
+Extracting: out/products/hib/src/build_support/debuggers/set_bootmode_header.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\set_bootmode_header.cmm
+Extracting: out/products/hib/src/build_support/debuggers/start_t32.bat -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\start_t32.bat
+Extracting: out/products/hib/src/build_support/debuggers/tc397.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\tc397.cmm
+Extracting: out/products/hib/src/build_support/debuggers/wait_500ms_and_exit_T32.cmm -> C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification\out\products\hib\src\build_support\debuggers\wait_500ms_and_exit_T32.cmm
+Extracted: 42 files
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Prepare the environment for flashing)
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>wsl make -f products/hib/mkenv.mak deps_clean_lite 
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>wsl make -f products/hib/mkenv.mak configure_hix_target_hw_test_deps 
+Installing the 7zip artifact...
+Purging directory out/products/hib/deps/7zip_22.01/
+Downloading and unzipping ARTCSP-LTS/external/hi/7zip/22.01/7za.exe
+[Info] Searching items to download...
+[Info] [Thread 2] Downloading ARTCSP-LTS/external/hi/7zip/22.01/7za.exe
+{
+  "status": "success",
+  "totals": {
+    "success": 1,
+    "failure": 0
+  }
+}
+Removing the downloaded artifact...
+Done unzipping out/products/hib/deps/7zip_22.01/
+Installing the python artifact...
+Purging directory out/products/hib/deps/Python-3.7.6-embed-amd64_0.4.7/
+Downloading and unzipping ARTCSP-LTS/external/hi/python/Python-3.7.6-embed-amd64_0.4.7.zip
+[Info] Searching items to download...
+[Info] [Thread 2] Downloading ARTCSP-LTS/external/hi/python/Python-3.7.6-embed-amd64_0.4.7.zip
+{
+  "status": "success",
+  "totals": {
+    "success": 1,
+    "failure": 0
+  }
+}
+
+7-Zip (a) 22.01 (x86) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+
+Scanning the drive for archives:
+1 file, 23261082 bytes (23 MiB)
+
+Extracting archive: out\jfrog\Python-3.7.6-embed-amd64_0.4.7.zip
+--
+Path = out\jfrog\Python-3.7.6-embed-amd64_0.4.7.zip
+Type = zip
+Physical Size = 23261082
+
+Everything is Ok
+
+Folders: 491
+Files: 3695
+Size:       59666553
+Compressed: 23261082
+Removing the downloaded artifact...
+Done unzipping out/products/hib/deps/Python-3.7.6-embed-amd64_0.4.7/
+Installing the lauterbach artifact...
+Purging directory out/products/hib/deps/T32
+Downloading and unzipping ARTCSP-LTS/external/hi/debugger/t32_R.2024.02.000168999.v3_t32api_dll_font.zip
+[Info] Searching items to download...
+[Info] [Thread 2] Downloading ARTCSP-LTS/external/hi/debugger/t32_R.2024.02.000168999.v3_t32api_dll_font.zip
+{
+  "status": "success",
+  "totals": {
+    "success": 1,
+    "failure": 0
+  }
+}
+
+7-Zip (a) 22.01 (x86) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+
+Scanning the drive for archives:
+1 file, 1886935188 bytes (1800 MiB)
+
+Extracting archive: out\jfrog\t32_R.2024.02.000168999.v3_t32api_dll_font.zip
+--
+Path = out\jfrog\t32_R.2024.02.000168999.v3_t32api_dll_font.zip
+Type = zip
+Physical Size = 1886935188
+
+Everything is Ok
+
+Folders: 2544
+Files: 20955
+Size:       6298787059
+Compressed: 1886935188
+Removing the downloaded artifact...
+Done unzipping out/products/hib/deps/T32
+[Pipeline] readFile
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig number for which environement is prepared: 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The Rig - 1793 is present in Dev Configuration [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] writeFile
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] New config file created - out\products\hib\src\build_support\debuggers\config.t32 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] readFile
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] t32 Temp folder : C:\Temp [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] fileExists
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Flash with verification)
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Will skip erase app and fbl coldboot verification step [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] FLASH_TARGET parameter: 
+dev [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Flash target: 
+flash_hib_aio_dev_blue [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Erase app instruction: false [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Set idromEcu: HIC [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] UDS did: 22F12E [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] stage
+[Pipeline] { (Flash HIX AIO with erase option: NO)
+[Pipeline] timeout
+Timeout set to expire in 5 min 0 sec
+[Pipeline] {
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>taskkill /IM t32mtc.exe /F  1>NULL 2>&1 
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;31m [ERROR] Exception in taskkill t32mtc.exe is :hudson.AbortException: script returned exit code 128 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Expected return code 128 if t32mtc.exe or t32marm.exe cannot be found [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] node
+Running on gotsva1793.got.volvocars.net in /home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Prepare for T32 operations, disable WDG, pulse powers [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.2 -c 1
+PING 192.168.38.2 (192.168.38.2) 56(84) bytes of data.
+64 bytes from 192.168.38.2: icmp_seq=1 ttl=255 time=0.806 ms
+
+--- 192.168.38.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.806/0.806/0.806/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 192.168.38.2 relay address is reachable ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.2/state.xml?relayState=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  46250      0 --:--:-- --:--:-- --:--:-- 46250
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>0</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.7/state.xml?relayState=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  37000      0 --:--:-- --:--:-- --:--:-- 37000
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>0</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] sleep
+Sleeping for 15 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Sleep 15 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] VCU is powered OFF ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Set HIB watchdog relay positions for mode - off ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.5 -c 1
+PING 192.168.38.5 (192.168.38.5) 56(84) bytes of data.
+64 bytes from 192.168.38.5: icmp_seq=1 ttl=255 time=0.745 ms
+
+--- 192.168.38.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.745/0.745/0.745/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.5 sleepTimeSec -> 2 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.5/state.xml?relay4state=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  38200      0 --:--:-- --:--:-- --:--:-- 38200
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>0</relay3state>
+<relay4state>1</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-4 is turned ON in RelayIP-192.168.38.5 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 2 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Trying to connect Lauterbach to hib [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.6 -c 1
+PING 192.168.38.6 (192.168.38.6) 56(84) bytes of data.
+64 bytes from 192.168.38.6: icmp_seq=1 ttl=255 time=0.740 ms
+
+--- 192.168.38.6 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.740/0.740/0.740/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.6 sleepTimeSec -> 5 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.6/state.xml?relay3state=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  47750      0 --:--:-- --:--:-- --:--:-- 47750
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>1</relay3state>
+<relay4state>0</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-3 is turned ON in RelayIP-192.168.38.6 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 5 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.6 sleepTimeSec -> 5 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.6/state.xml?relay4state=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  38200      0 --:--:-- --:--:-- --:--:-- 38200
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>1</relay3state>
+<relay4state>0</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-4 is turned OFF in RelayIP-192.168.38.6 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 5 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] Lauterbach connected to HIB for rig type - GEN3! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Currently Lauterbach power ON/OFF is not dependent on RIG Generation [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig number for which environement is prepared: 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The Rig - 1793 is present in Dev Configuration [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.6 -c 1
+PING 192.168.38.6 (192.168.38.6) 56(84) bytes of data.
+64 bytes from 192.168.38.6: icmp_seq=1 ttl=255 time=0.402 ms
+
+--- 192.168.38.6 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.402/0.402/0.402/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.6 sleepTimeSec -> 5 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.6/state.xml?relay1state=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  38200      0 --:--:-- --:--:-- --:--:-- 38200
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>1</relay1state>
+<relay2state>0</relay2state>
+<relay3state>1</relay3state>
+<relay4state>0</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-1 is turned ON in RelayIP-192.168.38.6 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 5 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] Lauterbach Powered OFF ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.6 sleepTimeSec -> 5 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.6/state.xml?relay1state=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  47750      0 --:--:-- --:--:-- --:--:-- 47750
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>1</relay3state>
+<relay4state>0</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-1 is turned OFF in RelayIP-192.168.38.6 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 5 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] Lauterbach Powered ON ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] timeout
+Timeout set to expire in 2 min 0 sec
+[Pipeline] {
+[Pipeline] isUnix
+[Pipeline] sh
++ ping -c 1 192.168.38.221
+PING 192.168.38.221 (192.168.38.221) 56(84) bytes of data.
+
+--- 192.168.38.221 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;43m [WARNING] Lauterbach IP is not reachable! Waiting 5s and retry... [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 5 sec
+[Pipeline] isUnix
+[Pipeline] sh
++ ping -c 1 192.168.38.221
+PING 192.168.38.221 (192.168.38.221) 56(84) bytes of data.
+64 bytes from 192.168.38.221: icmp_seq=1 ttl=64 time=0.227 ms
+
+--- 192.168.38.221 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.227/0.227/0.227/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] Lauterbach IP is reachable! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // timeout
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] Attempt to connect to LB: 1 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.2 -c 1
+PING 192.168.38.2 (192.168.38.2) 56(84) bytes of data.
+64 bytes from 192.168.38.2: icmp_seq=1 ttl=255 time=0.404 ms
+
+--- 192.168.38.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.404/0.404/0.404/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 192.168.38.2 relay address is reachable ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.2/state.xml?relayState=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  37000      0 --:--:-- --:--:-- --:--:-- 37000
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>1</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.7/state.xml?relayState=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  37000      0 --:--:-- --:--:-- --:--:-- 37000
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>1</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] sleep
+Sleeping for 15 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Sleep 15 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] VCU is powered ON ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Flash via T32 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>out\products\hib\deps\T32\T32\bin\windows64\t32mtc.exe -c out\products\hib\src\build_support\debuggers\config.t32 out\products\hib\deps\T32\T32 -s products\hib\src\build_support\debuggers\ci_flash_script.cmm                             CPU=TC397XX OUT_PATH=out/products/hib REPO_PATH=products/hib TARGET=flash_hib_aio_dev_blue                             TEST_TYPE=AUTOMATION ERASE_APP=NO 
+[Pipeline] node
+Running on gotsva1793.got.volvocars.net in /home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Re-enable WDG and pulse power after T32 operations [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Set HIA watchdog relay positions for mode - on ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.5 -c 1
+PING 192.168.38.5 (192.168.38.5) 56(84) bytes of data.
+64 bytes from 192.168.38.5: icmp_seq=1 ttl=255 time=0.340 ms
+
+--- 192.168.38.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.340/0.340/0.340/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.5 sleepTimeSec -> 2 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.5/state.xml?relay1state=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  47750      0 --:--:-- --:--:-- --:--:-- 47750
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>0</relay3state>
+<relay4state>1</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-1 is turned OFF in RelayIP-192.168.38.5 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 2 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Set HIB watchdog relay positions for mode - on ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.5 -c 1
+PING 192.168.38.5 (192.168.38.5) 56(84) bytes of data.
+64 bytes from 192.168.38.5: icmp_seq=1 ttl=255 time=0.415 ms
+
+--- 192.168.38.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.415/0.415/0.415/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.5 sleepTimeSec -> 2 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.5/state.xml?relay4state=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  47750      0 --:--:-- --:--:-- --:--:-- 47750
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>0</relay3state>
+<relay4state>0</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-4 is turned OFF in RelayIP-192.168.38.5 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 2 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Set HIC watchdog relay positions for mode - on ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.8 -c 1
+PING 192.168.38.8 (192.168.38.8) 56(84) bytes of data.
+64 bytes from 192.168.38.8: icmp_seq=1 ttl=255 time=0.682 ms
+
+--- 192.168.38.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.682/0.682/0.682/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] relayIP -> 192.168.38.8 sleepTimeSec -> 2 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.8/state.xml?relay1state=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   191    0   191    0     0  47750      0 --:--:-- --:--:-- --:--:-- 47750
+<?xml version='1.0' encoding='utf-8'?>
+<datavalues>
+<relay1state>0</relay1state>
+<relay2state>0</relay2state>
+<relay3state>0</relay3state>
+<relay4state>1</relay4state>
+</datavalues>
+
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Relay-1 is turned OFF in RelayIP-192.168.38.8 ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sleep
+Sleeping for 2 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] The RigNumber is 1793 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] echo
+The Rig - 1793 is present in Dev Configuration
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] The Rig 1793 config is [lauterbach_node:E23110048784, lb_connection_type:NET, is_viu_connected:false, type:GEN3] [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 1793 is a GEN3 rig ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ ping 192.168.38.2 -c 1
+PING 192.168.38.2 (192.168.38.2) 56(84) bytes of data.
+64 bytes from 192.168.38.2: icmp_seq=1 ttl=255 time=0.442 ms
+
+--- 192.168.38.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.442/0.442/0.442/0.000 ms
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] 192.168.38.2 relay address is reachable ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.2/state.xml?relayState=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  37000      0 --:--:-- --:--:-- --:--:-- 37000
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>0</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.7/state.xml?relayState=0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  46250      0 --:--:-- --:--:-- --:--:-- 46250
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>0</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] sleep
+Sleeping for 15 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Sleep 15 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.2/state.xml?relayState=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  46250      0 --:--:-- --:--:-- --:--:-- 46250
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>1</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] isUnix
+[Pipeline] sh
++ curl --http0.9 192.168.38.7/state.xml?relayState=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185    0   185    0     0  37000      0 --:--:-- --:--:-- --:--:-- 37000
+<?xml version="1.0" encoding="utf-8"?>
+<datavalues>
+<relaystate>1</relaystate>
+<inputstate>0</inputstate>
+<rebootstate>0</rebootstate>
+<totalreboots>0</totalreboots>
+</datavalues>
+[Pipeline] sleep
+No need to sleep any longer
+[Pipeline] sleep
+Sleeping for 15 sec
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;32m [INFO] Sleep 15 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;34m [SUCCESS] VCU is power pulsed ! [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] bat
+
+sprite@GOTSVA1793-1 C:\Users\sprite\highgarden\workspace\HI-Manifests\HI_Manifests_flash_with_verification>taskkill /IM t32mtc.exe /F  1>NULL 2>&1 
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;31m [ERROR] Exception in taskkill t32mtc.exe is :hudson.AbortException: script returned exit code 128 [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Expected return code 128 if t32mtc.exe or t32marm.exe cannot be found [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // timeout
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] node
+Running on gotsva1793.got.volvocars.net in /home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (HIx UART test)
+[Pipeline] sh
++ id -u hiluser
+[Pipeline] sh
++ id -g hiluser
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] echo
+[0;35m [DEBUG] Verify app using uart [0m 
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] sh
++ retry -t 0 -- docker run --name jenkins-HI-Manifests-HI_Manifests_flash_with_verification-1485_0 --rm -v /home/hiluser/highgarden/workspace/HI-Manifests/HI_Manifests_flash_with_verification@2/products/hib/src/ci:/app -v /dev:/dev --privileged --user 1001:1001 artcsp-docker-lts.ara-artifactory.volvocars.biz/shirley/requirements-amd64-linux-ci:0.0.2 sh -c python3 -m robot --include HIB robot_tests/uart_hix_test_app.robot
+==============================================================================
+Uart Hix Test App :: Tests UART connection with HIx application.              
+==============================================================================
+Test serial HIB :: Test UART hib/app Req ID: N/A Decision ID: N/A     
+UART prompt is:
+I> BCH of MB2 read from storage
+I> BCH address is : 0x8007e000
+I> MB2 heade.J��������������������� ���
+| FAIL |
+'I> BCH of MB2 read from storage
+I> BCH address is : 0x8007e000
+I> MB2 heade.J��������������������� ���' does not contain 'SW Version'
+------------------------------------------------------------------------------
+Uart Hix Test App :: Tests UART connection with HIx application.      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  /app/output.xml
+Log:     /app/log.html
+Report:  /app/report.html
+timeout reached - giving up ...
+[Pipeline] sh
++ docker rm -f jenkins-HI-Manifests-HI_Manifests_flash_with_verification-1485_0
+[Pipeline] sh
++ cp products/hib/src/ci/output.xml hix_build_apps_3993.xml
+[Pipeline] archiveArtifacts
+Archiving artifacts
+[Pipeline] sh
++ rm hix_build_apps_3993.xml
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
